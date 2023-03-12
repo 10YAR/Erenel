@@ -1,0 +1,61 @@
+
+---Downloaded files---
+The import files for: Taxseco Demo were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = https://angfuzsoft.com/themeforest/wordpress/fresh
+Data file = /home/m9glwvkbyf1g/public_html/themeforest/wordpress/fresh/wp-content/themes/taxseco/inc/demo-data/taxseco-demo.xml
+Widget file = /home/m9glwvkbyf1g/public_html/themeforest/wordpress/fresh/wp-content/themes/taxseco/inc/demo-data/taxseco-widgets-demo.json
+Customizer file = not defined!
+Redux files:
+taxseco_opt -> /home/m9glwvkbyf1g/public_html/themeforest/wordpress/fresh/wp-content/themes/taxseco/inc/demo-data/redux_options_demo.json 
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Taxseco :: Recent Posts - Recent Posts - Imported
+Block - No Title - Imported
+Taxseco :: CTA Widget - No Title - Imported
+
+Page Sidebar : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+Footer Widgets Area 1 : 
+
+Block - No Title - Imported
+
+Footer Widgets Area 2 : 
+
+Taxseco :: Recent Posts - Recent Posts - Imported
+
+Footer Widgets Area 3 : 
+
+Block - No Title - Imported
+
+Footer Widgets Area 4 : 
+
+Block - No Title - Imported
+
+Offcanvas Sidebar : 
+
+Block - No Title - Imported
+Taxseco :: Recent Posts - Recent Posts - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: taxseco_opt finished successfully!
+
+---ocdi/after_import---
+

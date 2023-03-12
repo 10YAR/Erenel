@@ -1,0 +1,28 @@
+/*
+ Theme Name:   Taxseco Child
+ Theme URI: https://angfuzsoft.com/wordpress/taxseco
+ Description:  This is a child theme for Taxseco WordPress Theme
+ Author:       Angfuzsoft
+ Author URI:   https://www.angfuzsoft.com/
+ Template:     taxseco
+ Version:      1.0
+ Tags:         two-columns, three-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, theme-options, editor-style, featured-images, microformats, post-formats,  sticky-post, threaded-comments, translation-ready
+ Text Domain:  taxseco-child
+*/
+
+/*  [ Add your custom css below ]
+- - - - - - - - - - - - - - - - - - - - */
+
+.header-layout1 .header-top {
+    background-color: transparent;
+}
+
+.header-layout1 .header-top a,
+.header-layout1 .header-top a:hover,
+.header-layout1 .header-top i {
+    color: var(--theme-color);
+}
+
+.elementor-widget-container .tab-menu3  {
+    display: none;
+}

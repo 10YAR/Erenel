@@ -1,0 +1,89 @@
+
+---Downloaded files---
+The import files for: Taxseco Demo were successfully downloaded!
+Initial max execution time = 36000
+Files info:
+Site URL = http://erenel.test
+Data file = C:\laragon\www\erenel/wp-content/themes/taxseco/inc/demo-data/taxseco-demo.xml
+Widget file = C:\laragon\www\erenel/wp-content/themes/taxseco/inc/demo-data/taxseco-widgets-demo.json
+Customizer file = not defined!
+Redux files:
+taxseco_opt -> C:\laragon\www\erenel/wp-content/themes/taxseco/inc/demo-data/redux_options_demo.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Bloc - No Title - Imported
+Bloc - No Title - Imported
+Taxseco :: Recent Posts - Recent Posts - Imported
+Bloc - No Title - Imported
+Taxseco :: CTA Widget - No Title - Imported
+
+Page Sidebar : 
+
+Bloc - No Title - Widget already exists
+Bloc - No Title - Imported
+
+Footer Widgets Area 1 : 
+
+Bloc - No Title - Imported
+
+Footer Widgets Area 2 : 
+
+Taxseco :: Recent Posts - Recent Posts - Imported
+
+Footer Widgets Area 3 : 
+
+Bloc - No Title - Imported
+
+Footer Widgets Area 4 : 
+
+Bloc - No Title - Imported
+
+Offcanvas Sidebar : 
+
+Bloc - No Title - Imported
+Taxseco :: Recent Posts - Recent Posts - Imported
+Bloc - No Title - Imported
+Bloc - No Title - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: taxseco_opt finished successfully!
+
+---ocdi/after_import---
+

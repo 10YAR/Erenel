@@ -1,0 +1,387 @@
+.ripple-animation {
+  animation-duration: var(--ripple-ani-duration);
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-name: ripple;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0.4;
+  }
+
+  100% {
+    transform: scale(1.9);
+    opacity: 0;
+  }
+}
+
+.moving {
+  animation: moving 35s linear infinite;
+}
+@keyframes moving {
+  0% {
+    transform: translateX(0) rotateY(0);
+  }
+  50% {
+    transform: translateX(calc(-100vw + 100%));
+  }
+  51% {
+    transform: translateX(calc(-100vw + 100%)) rotateY(180deg);
+  }
+  100% {
+    transform: translateX(0) rotateY(180deg);
+  }
+}
+
+.movingX {
+  animation: movingX 35s linear infinite;
+}
+@keyframes movingX {
+  0% {
+    transform: translateX(0) rotateY(0deg);
+  }
+  50% {
+    transform: translateX(calc(100vw - 100%));
+  }
+  51% {
+    transform: translateX(calc(100vw - 100%)) rotateY(180deg);
+  }
+  100% {
+    transform: translateX(0) rotateY(180deg);
+  }
+}
+
+.jump {
+  animation: jumpAni 7s linear infinite;
+}
+@keyframes jumpAni {
+  0% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-60px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.jump-reverse {
+  animation: jumpReverseAni 7s linear infinite;
+}
+@keyframes jumpReverseAni {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(60px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.movingY {
+  animation: movingY 17s linear infinite;
+}
+@keyframes movingY {
+  0% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.movingY-reverse {
+  animation: movingYReverseAni 17s linear infinite;
+}
+@keyframes movingYReverseAni {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(40deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+
+// This is for Progress bar animation also has a js code
+@keyframes animate-positive {
+  0% {
+    width: 0; 
+  } 
+}
+
+@keyframes lineMove {
+  0% {
+      bottom: 0;
+      opacity: 1;
+  }
+  50% {
+      bottom: 100%;
+      opacity: 0.3;
+  }
+  100% {
+      bottom: 0;
+      opacity: 1;
+  }
+}
+
+@keyframes lineMove2 {
+  0% {
+      top: 0;
+      opacity: 1;
+  }
+  50% {
+      top: 100%;
+      opacity: 0.3;
+  }
+  100% {
+      top: 0;
+      opacity: 1;
+  }
+}
+
+@keyframes shapePulse {
+  0% {
+      transform: scaleY(1);
+  }
+  50% {
+      transform: scaleY(0.88);
+  }
+  100% {
+      transform: scaleY(1);
+  }
+}
+
+.movingTopRight {
+  animation: movingTopRight 15s linear infinite;
+}
+
+@keyframes movingTopRight {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-90px, 90px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.movingBottomLeft {
+  animation: movingBottomLeft 15s linear infinite;
+}
+
+@keyframes movingBottomLeft {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(90px, -90px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes bgSlide {
+  0% {
+    background-position: 0 0;
+  }
+  0% {
+    background-position: 0 -50%;
+  }
+  0% {
+    background-position: 0 0;
+  }
+}
+
+
+.scalein.as-animated {
+  --animation-name: scalein;
+}
+
+.slidetopleft.as-animated {
+  --animation-name: slidetopleft;
+}
+
+.slidebottomright.as-animated {
+  --animation-name: slidebottomright;
+}
+
+.slideinleft.as-animated {
+  --animation-name: slideinleft;
+}
+
+.slideinright.as-animated {
+  --animation-name: slideinright;
+}
+
+.slideinup.as-animated {
+  --animation-name: slideinup;
+}
+
+.slideindown.as-animated {
+  --animation-name: slideindown;
+}
+.rollinleft.as-animated {
+  --animation-name: rollinleft;
+}
+.rollinright.as-animated {
+  --animation-name: rollinright;
+}
+
+
+.scalein,
+.slidetopleft,
+.slidebottomright,
+.slideinleft,
+.slideinright,
+.slideindown,
+.slideinup,
+.rollinleft,
+.rollinright {
+  opacity: 0;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-delay: 0.3s;
+  animation-name: var(--animation-name);
+}
+
+.as-animated {
+  opacity: 1;
+}
+
+@keyframes slideinup {
+  0% {
+    opacity: 0;
+    transform: translateY(70px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideinright {
+  0% {
+    opacity: 0;
+    transform: translateX(70px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideindown {
+  0% {
+    opacity: 0;
+    transform: translateY(-70px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideinleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-90px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slidebottomright {
+  0% {
+    opacity: 0;
+    transform: translateX(100px) translateY(100px);
+  }
+
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+@keyframes slidetopleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px) translateY(-100px);
+  }
+
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+@keyframes scalein {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  
+  100% {
+    transform: scale(1);
+
+  }
+}
+
+@keyframes rollinleft {
+  0% {
+      opacity: 0;
+      transform: translateX(-100%) rotate(-120deg);
+  }
+  to {
+      transform: translateX(0) rotate(0deg);
+  }
+}
+@keyframes rollinright {
+  0% {
+      opacity: 0;
+      transform: translateX(100%) rotate(120deg);
+  }
+  to {
+      transform: translateX(0) rotate(0deg);
+  }
+}
