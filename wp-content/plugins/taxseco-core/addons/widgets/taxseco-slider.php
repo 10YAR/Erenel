@@ -818,7 +818,7 @@ class Taxseco_Slider extends Widget_Base {
 		            echo '</div>';
 				}
 		        echo '</div>';
-		        echo '<a href="#about-sec" class="scroll-bottom"><i class="far fa-chevron-down"></i></a>';
+		        echo '<a href="#about-sec" class="scroll-bottom"><i class="fas fa-chevron-down"></i></a>';
 		        echo '<div class="hero-shape"></div>';
 		    echo '</div>';
 			echo '<!--======== Hero Section ========-->';
@@ -869,8 +869,8 @@ class Taxseco_Slider extends Widget_Base {
 			        }
 		        echo '</div>';
 		        echo '<div class="icon-box">';
-		            echo '<button data-slick-prev="#heroSlide2" class="slick-arrow default"><i class="far fa-chevron-left"></i></button>';
-		            echo '<button data-slick-next="#heroSlide2" class="slick-arrow default"><i class="far fa-chevron-right"></i></button>';
+		            echo '<button data-slick-prev="#heroSlide2" class="slick-arrow default"><i class="fas fa-chevron-left"></i></button>';
+		            echo '<button data-slick-next="#heroSlide2" class="slick-arrow default"><i class="fas fa-chevron-right"></i></button>';
 		        echo '</div>';
 		    echo '</div>';
 		}elseif( $settings['slider_style'] == '4' ){

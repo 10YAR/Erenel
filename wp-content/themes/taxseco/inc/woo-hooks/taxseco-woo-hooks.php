@@ -586,7 +586,7 @@ add_filter( 'woosq_button_position', function() {
 
 add_filter( 'woosq_button_html', 'taxseco_woosq_button_html', 10, 2 );
 function taxseco_woosq_button_html( $output , $prodid ) {
-    return $output = '<a href="#" class="icon-btn woosq-btn woosq-btn-' . esc_attr( $prodid ) . ' ' . get_option( 'woosq_button_class' ) . '" data-id="' . esc_attr( $prodid ) . '" data-effect="mfp-3d-unfold"><i class="far fa-eye"></i></a>';
+    return $output = '<a href="#" class="icon-btn woosq-btn woosq-btn-' . esc_attr( $prodid ) . ' ' . get_option( 'woosq_button_class' ) . '" data-id="' . esc_attr( $prodid ) . '" data-effect="mfp-3d-unfold"><i class="fas fa-eye"></i></a>';
 }
 
 // Product Description Add Filter

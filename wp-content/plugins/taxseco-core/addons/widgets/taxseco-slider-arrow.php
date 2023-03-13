@@ -108,7 +108,7 @@ class Taxseco_Slider_Arrow extends Widget_Base {
 
         $settings = $this->get_settings_for_display();
         
-        echo '<div class="icon-box"><button data-slick-prev="#'.esc_attr( $settings['slider_id'] ).'" class="slick-arrow default"><i class="far fa-arrow-left"></i></button>';
-        echo '<button data-slick-next="#'.esc_attr( $settings['slider_id'] ).'" class="slick-arrow default"><i class="far fa-arrow-right"></i></button></div>';
+        echo '<div class="icon-box"><button data-slick-prev="#'.esc_attr( $settings['slider_id'] ).'" class="slick-arrow default"><i class="fas fa-arrow-left"></i></button>';
+        echo '<button data-slick-next="#'.esc_attr( $settings['slider_id'] ).'" class="slick-arrow default"><i class="fas fa-arrow-right"></i></button></div>';
 	}
 }

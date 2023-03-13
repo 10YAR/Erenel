@@ -427,8 +427,8 @@ class Taxseco_Testimonial_Slider extends Widget_Base{
 	            	<?php endforeach; ?>
 	            </div>
 	            <div class="as-icon-box testi-1">
-	                <button data-slick-prev="#testi1" class="icon-btn arrow-left"><i class="far fa-chevron-left"></i></button>
-	                <button data-slick-next="#testi1" class="icon-btn arrow-right"><i class="far fa-chevron-right"></i></button>
+	                <button data-slick-prev="#testi1" class="icon-btn arrow-left"><i class="fas fa-chevron-left"></i></button>
+	                <button data-slick-next="#testi1" class="icon-btn arrow-right"><i class="fas fa-chevron-right"></i></button>
 	            </div>
 	        </div>
 		<?php
@@ -461,28 +461,28 @@ class Taxseco_Testimonial_Slider extends Widget_Base{
 		                        echo '<div class="testi-box_review">';
                             		if( $singleslide['client_rating'] == 'one' ){
 					                	echo '<i class="fas fa-star"></i>';
-						                echo '<i class="far fa-star"></i>';
-						                echo '<i class="far fa-star"></i>';
-						                echo '<i class="far fa-star"></i>';
-						                echo '<i class="far fa-star"></i>';
+						                echo '<i class="fas fa-star"></i>';
+						                echo '<i class="fas fa-star"></i>';
+						                echo '<i class="fas fa-star"></i>';
+						                echo '<i class="fas fa-star"></i>';
 					                }elseif( $singleslide['client_rating'] == 'two' ){
 					                	echo '<i class="fas fa-star"></i>';
 						                echo '<i class="fas fa-star"></i>';
-						                echo '<i class="far fa-star"></i>';
-						                echo '<i class="far fa-star"></i>';
-						                echo '<i class="far fa-star"></i>';
+						                echo '<i class="fas fa-star"></i>';
+						                echo '<i class="fas fa-star"></i>';
+						                echo '<i class="fas fa-star"></i>';
 					                }elseif( $singleslide['client_rating'] == 'three' ){
 					                	echo '<i class="fas fa-star"></i>';
 						                echo '<i class="fas fa-star"></i>';
 						                echo '<i class="fas fa-star"></i>';
-						                echo '<i class="far fa-star"></i>';
-						                echo '<i class="far fa-star"></i>';
+						                echo '<i class="fas fa-star"></i>';
+						                echo '<i class="fas fa-star"></i>';
 					                }elseif( $singleslide['client_rating'] == 'four' ){
 					                	echo '<i class="fas fa-star"></i>';
 						                echo '<i class="fas fa-star"></i>';
 						                echo '<i class="fas fa-star"></i>';
 						                echo '<i class="fas fa-star"></i>';
-						                echo '<i class="far fa-star"></i>';
+						                echo '<i class="fas fa-star"></i>';
 					                }else{
 					                	echo '<i class="fas fa-star"></i>';
 						                echo '<i class="fas fa-star"></i>';

@@ -22,11 +22,11 @@
                 $next_post = get_next_post();
                 if($prev_post) {
                     $prev_title = strip_tags(str_replace('"', '', $prev_post->post_title));
-                    echo '<a href="' . get_permalink($prev_post->ID) . '" class="nav-btn"><i class="far fa-long-arrow-left"></i> ' . $prev_title. '</a>';
+                    echo '<a href="' . get_permalink($prev_post->ID) . '" class="nav-btn"><i class="fas fa-long-arrow-left"></i> ' . $prev_title. '</a>';
                 }
                 if($next_post) {
                     $next_title = strip_tags(str_replace('"', '', $next_post->post_title));
-                    echo '<a href="' . get_permalink($next_post->ID) . '" class="nav-btn">' . $next_title. ' <i class="far fa-long-arrow-right"></i></a>';
+                    echo '<a href="' . get_permalink($next_post->ID) . '" class="nav-btn">' . $next_title. ' <i class="fas fa-long-arrow-right"></i></a>';
                 }
             echo '</div>';
         echo '</div>';

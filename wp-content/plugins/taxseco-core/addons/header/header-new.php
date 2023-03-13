@@ -720,7 +720,7 @@ class Taxseco_Header_New extends Widget_Base {
 	        echo '<!-- Side menu start -->';
 	        echo '<div class="sidemenu-wrapper d-none d-lg-block">';
 	            echo '<div class="sidemenu-content bg-title">';
-	                echo '<button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>';
+	                echo '<button class="closeButton sideMenuCls"><i class="fas fa-times"></i></button>';
 	                if( is_active_sidebar( 'taxseco-offcanvas' ) ) :
 	                    dynamic_sidebar( 'taxseco-offcanvas' );
 	                endif; 
@@ -838,7 +838,7 @@ class Taxseco_Header_New extends Widget_Base {
 											wp_nav_menu( $args );
 										}  ?>
 	                                </nav>
-	                                <button class="as-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button>
+	                                <button class="as-menu-toggle d-inline-block d-lg-none"><i class="fas fa-bars"></i></button>
 	                            </div>
 	                            <div class="col-auto">
 	                                <div class="header-button">
@@ -854,11 +854,11 @@ class Taxseco_Header_New extends Widget_Base {
 		                                <?php endif; ?>
 
 		                                <?php if( $settings['show_search_btn'] == 'yes' ): ?>
-                                        	<button type="button" class="icon-btn searchBoxToggler"><i class="far fa-search"></i></button>
+                                        	<button type="button" class="icon-btn searchBoxToggler"><i class="fas fa-search"></i></button>
                                     	<?php endif; ?>
 
                                         <?php if( $settings['off_canvas'] == 'yes' && is_active_sidebar( 'taxseco-offcanvas' )): ?>
-                                        	<a href="<?php echo esc_url('#'); ?>" class="icon-btn sideMenuToggler"><i class="far fa-bars"></i></a>
+                                        	<a href="<?php echo esc_url('#'); ?>" class="icon-btn sideMenuToggler"><i class="fas fa-bars"></i></a>
                                         <?php endif; ?>
 	                                </div>
 	                            </div>

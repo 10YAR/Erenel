@@ -56,7 +56,7 @@
     );
 
     $args = array(
-        'comment_field'         =>'<div class="row"><div class="col-md-12 form-group"><textarea rows="10" class="form-control" name="comment" placeholder="'. esc_attr__( 'Write Comment *', 'taxseco' ) .'" '.esc_attr( $aria_req ).'></textarea><i class="far fa-pencil-alt"></i></div></div>',
+        'comment_field'         =>'<div class="row"><div class="col-md-12 form-group"><textarea rows="10" class="form-control" name="comment" placeholder="'. esc_attr__( 'Write Comment *', 'taxseco' ) .'" '.esc_attr( $aria_req ).'></textarea><i class="fas fa-pencil-alt"></i></div></div>',
         'class_form'            => 'comment-form',
         'title_reply'           => esc_html__( 'Leave A Comment', 'taxseco' ),
         'title_reply_before'    => '<div class="form-title"><h2 class="blog-inner-title">',

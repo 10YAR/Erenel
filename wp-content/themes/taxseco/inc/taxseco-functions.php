@@ -372,12 +372,12 @@ function taxseco_global_header_option() {
                                                 "menu_class"        => ''
                                             ) );
                                             echo '</nav>';
-                                            echo '<button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button>';
+                                            echo '<button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i class="fas fa-bars"></i></button>';
                                         echo '</div>';
                                         echo '<div class="col-auto d-none d-xxl-block">';
                                             echo '<div class="header-button">';                                        
                                                     if(!empty($taxseco_search_enable)){
-                                                        echo '<button type="button" class="icon-style2 searchBoxToggler"><i class="far fa-search"></i></button>';
+                                                        echo '<button type="button" class="icon-style2 searchBoxToggler"><i class="fas fa-search"></i></button>';
                                                     }
                                                     if(!empty($taxseco_booktaxi_enable)){
                                                         if(!empty($taxseco_header_btn_text)){
@@ -406,7 +406,7 @@ function taxseco_global_header_option() {
             echo '<!-- Side menu start -->';
             echo '<div class="sidemenu-wrapper d-none d-lg-block">';
                 echo '<div class="sidemenu-content bg-title">';
-                    echo '<button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>';
+                    echo '<button class="closeButton sideMenuCls"><i class="fas fa-times"></i></button>';
                     if( is_active_sidebar( 'taxseco-offcanvas' ) ) :
                         dynamic_sidebar( 'taxseco-offcanvas' );
                     endif; 
@@ -581,11 +581,11 @@ if( ! function_exists( 'taxseco_global_header' ) ){
                                         echo '</nav>';
                                     }                                    
                                     echo '</nav>';
-                                    echo '<button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button>';
+                                    echo '<button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i class="fas fa-bars"></i></button>';
                                 echo '</div>';
                                 echo '<div class="col-auto d-none d-xl-block">';
                                     echo '<div class="header-button">';
-                                        echo '<button type="button" class="icon-style2 searchBoxToggler"><i class="far fa-search"></i></button>';
+                                        echo '<button type="button" class="icon-style2 searchBoxToggler"><i class="fas fa-search"></i></button>';
                                     echo '</div>';
                                 echo '</div>';
                             echo '</div>';
@@ -661,12 +661,12 @@ if( ! function_exists( 'taxseco_header_topbar' ) ){
                                     }                                    
                                     if( $taxseco_header_topbar_address_switcher){
                                         if( $taxseco_topbar_office_address ){
-                                            echo ' <li class="d-none d-xl-inline-block"><i class="far fa-location-dot"></i>'.esc_html( $taxseco_topbar_office_address ).'</li>';
+                                            echo ' <li class="d-none d-xl-inline-block"><i class="fas fa-location-dot"></i>'.esc_html( $taxseco_topbar_office_address ).'</li>';
                                         }
                                     }
                                     if( $taxseco_header_topbar_mail_switcher ){
                                         if( $taxseco_menu_topbar_email ){
-                                            echo ' <li><i class="far fa-envelope"></i><a href="mailto:'.esc_attr( $taxseco_menu_topbar_email ).'">'.esc_html( $taxseco_menu_topbar_email ).'</a></li>';
+                                            echo ' <li><i class="fas fa-envelope"></i><a href="mailto:'.esc_attr( $taxseco_menu_topbar_email ).'">'.esc_html( $taxseco_menu_topbar_email ).'</a></li>';
                                         }
                                     }
                                 echo '</ul>';

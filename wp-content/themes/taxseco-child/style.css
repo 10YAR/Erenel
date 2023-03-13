@@ -26,3 +26,17 @@
 .elementor-widget-container .tab-menu3  {
     display: none;
 }
+
+.erenel-color,
+.subtitle-selector,
+.testi-block_desig,
+.blog-content > a {
+    color: #008CAF;
+    background-color: #0083AF;
+    background-image: linear-gradient(45deg, #0083AF, #00B3C4);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}

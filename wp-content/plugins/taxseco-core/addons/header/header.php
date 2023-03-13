@@ -108,7 +108,7 @@ class Taxseco_Header extends Widget_Base {
 				'label' 		=> __( 'Button Icon', 'taxseco' ),
 				'type' 			=> Controls_Manager::TEXTAREA,
 				'rows' 			=> 2,
-				'default' 		=> __( '<i class="far fa-user"></i>', 'taxseco' ),
+				'default' 		=> __( '<i class="fas fa-user"></i>', 'taxseco' ),
 				'condition'		=> [ 'show_header_top' => [ 'yes' ] ],
 			]
 		);
@@ -589,7 +589,7 @@ class Taxseco_Header extends Widget_Base {
 	        echo '<!-- Side menu start -->';
 	        echo '<div class="sidemenu-wrapper d-none d-lg-block">';
 	            echo '<div class="sidemenu-content bg-title">';
-	                echo '<button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>';
+	                echo '<button class="closeButton sideMenuCls"><i class="fas fa-times"></i></button>';
 	                if( is_active_sidebar( 'taxseco-offcanvas' ) ) :
 	                    dynamic_sidebar( 'taxseco-offcanvas' );
 	                endif; 
@@ -706,12 +706,12 @@ class Taxseco_Header extends Widget_Base {
 														wp_nav_menu( $args );
 													} 
 		                                        echo '</nav>';
-		                                        echo '<button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button>';
+		                                        echo '<button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i class="fas fa-bars"></i></button>';
 		                                    echo '</div>';
 		                                    echo '<div class="col-auto d-none d-xxl-block">';
 		                                        echo '<div class="header-button">';
 		                                        	if( $settings['show_search_btn'] == 'yes' ){
-			                                            echo '<button type="button" class="icon-style2 searchBoxToggler"><i class="far fa-search"></i></button>';
+			                                            echo '<button type="button" class="icon-style2 searchBoxToggler"><i class="fas fa-search"></i></button>';
 			                                        }
 
 				                    				if(!empty($settings['button_text'])){
@@ -841,12 +841,12 @@ class Taxseco_Header extends Widget_Base {
 														wp_nav_menu( $args );
 													}  ?>
 		                                        </nav>
-		                                        <button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button>
+		                                        <button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i class="fas fa-bars"></i></button>
 		                                    </div>
 		                                    <div class="col-auto d-none d-xxl-block">
 		                                        <div class="header-button">
 		                                        	<?php if( $settings['show_search_btn'] == 'yes' ): ?>
-		                                            <button type="button" class="icon-style2 searchBoxToggler"><i class="far fa-search"></i></button>
+		                                            <button type="button" class="icon-style2 searchBoxToggler"><i class="fas fa-search"></i></button>
 		                                        	<?php endif; ?>
 		                                        	<?php if(!empty($settings['button_text'])): ?>
 		                                            <a href="<?php echo esc_url( $settings['button_url']['url'] ); ?>" class="as-btn style3 style-skew"><span class="btn-text"><?php echo esc_html( $settings['button_text'] ); ?></span></a>
@@ -960,12 +960,12 @@ class Taxseco_Header extends Widget_Base {
 														wp_nav_menu( $args );
 													} 
 	                                        echo '</nav>';
-	                                        echo '<button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button>';
+	                                        echo '<button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i class="fas fa-bars"></i></button>';
 	                                    echo '</div>';
 	                                    echo '<div class="col-auto d-none d-xxl-block">';
 	                                        echo '<div class="header-button">';
 			                                 	if( $settings['show_search_btn'] == 'yes' ){
-												echo '<button type="button" class="icon-style2 searchBoxToggler"><i class="far fa-search"></i></button>';
+												echo '<button type="button" class="icon-style2 searchBoxToggler"><i class="fas fa-search"></i></button>';
 												}
 	                                          	if( $settings['off_canvas'] == 'yes' && is_active_sidebar( 'taxseco-offcanvas' )){
 												echo '<a href="'.esc_url('#').'" class="simple-icon sideMenuToggler"><i class="fa-solid fa-grid"></i></a>';

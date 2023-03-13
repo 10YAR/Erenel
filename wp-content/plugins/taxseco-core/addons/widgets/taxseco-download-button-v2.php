@@ -108,7 +108,7 @@ class Taxseco_Download_Box extends Widget_Base {
 	                        echo '<span class="download-media_text">'.esc_html__('Download', 'taxseco').'</span>';
 	                    echo '</div>';
 	                    if( ! empty( $data['url'] ) ){
-		                    echo '<a href="'.esc_url($data['url']).'" class="download-media_btn"><i class="far fa-arrow-right"></i></a>';
+		                    echo '<a href="'.esc_url($data['url']).'" class="download-media_btn"><i class="fas fa-arrow-right"></i></a>';
 		                }
 	                echo '</div>';
 	            }     

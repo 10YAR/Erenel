@@ -70,7 +70,7 @@
                     } else {
                         echo '<!-- Back to Top Button -->';
                         echo '<a href="'.esc_url('#').'" class="scrollToTop scroll-btn">';
-                            echo '<i class="far fa-arrow-up"></i>';
+                            echo '<i class="fas fa-arrow-up"></i>';
                         echo '</a>';
                         echo '<!-- End of Back to Top Button -->';
                     }
@@ -323,7 +323,7 @@
                 echo '<div class="blog-meta">';
                     echo '<a href="'.esc_url( get_author_posts_url( get_the_author_meta('ID') ) ).'"><i class="fas fa-user"></i>'.esc_html__('by ','taxseco').esc_html( ucwords( get_the_author() ) ).'</a>';
                     if( $taxseco_display_post_date ){
-                        echo '<a href="'.esc_url( taxseco_blog_date_permalink() ).'"><i class="far fa-calendar-alt"></i>';
+                        echo '<a href="'.esc_url( taxseco_blog_date_permalink() ).'"><i class="fas fa-calendar-alt"></i>';
                             echo '<time datetime="'.esc_attr( get_the_date( DATE_W3C ) ).'">'.esc_html( get_the_date() ).'</time>';
                         echo '</a>';
                     }

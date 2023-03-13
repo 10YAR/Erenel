@@ -408,28 +408,28 @@ class Taxseco_Testimonial_Slider extends Widget_Base{
 	                                    echo '<div class="testi-card_review">';
 	                                		if( $singleslide['client_rating'] == 'one' ){
 							                	echo '<i class="fas fa-star"></i>';
-								                echo '<i class="far fa-star"></i>';
-								                echo '<i class="far fa-star"></i>';
-								                echo '<i class="far fa-star"></i>';
-								                echo '<i class="far fa-star"></i>';
+								                echo '<i class="fas fa-star"></i>';
+								                echo '<i class="fas fa-star"></i>';
+								                echo '<i class="fas fa-star"></i>';
+								                echo '<i class="fas fa-star"></i>';
 							                }elseif( $singleslide['client_rating'] == 'two' ){
 							                	echo '<i class="fas fa-star"></i>';
 								                echo '<i class="fas fa-star"></i>';
-								                echo '<i class="far fa-star"></i>';
-								                echo '<i class="far fa-star"></i>';
-								                echo '<i class="far fa-star"></i>';
+								                echo '<i class="fas fa-star"></i>';
+								                echo '<i class="fas fa-star"></i>';
+								                echo '<i class="fas fa-star"></i>';
 							                }elseif( $singleslide['client_rating'] == 'three' ){
 							                	echo '<i class="fas fa-star"></i>';
 								                echo '<i class="fas fa-star"></i>';
 								                echo '<i class="fas fa-star"></i>';
-								                echo '<i class="far fa-star"></i>';
-								                echo '<i class="far fa-star"></i>';
+								                echo '<i class="fas fa-star"></i>';
+								                echo '<i class="fas fa-star"></i>';
 							                }elseif( $singleslide['client_rating'] == 'four' ){
 							                	echo '<i class="fas fa-star"></i>';
 								                echo '<i class="fas fa-star"></i>';
 								                echo '<i class="fas fa-star"></i>';
 								                echo '<i class="fas fa-star"></i>';
-								                echo '<i class="far fa-star"></i>';
+								                echo '<i class="fas fa-star"></i>';
 							                }else{
 							                	echo '<i class="fas fa-star"></i>';
 								                echo '<i class="fas fa-star"></i>';

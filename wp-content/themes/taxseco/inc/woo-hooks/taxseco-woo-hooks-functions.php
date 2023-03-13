@@ -458,9 +458,9 @@ if( !function_exists('taxseco_woocommerce_single_product_availability') ) {
                     echo '<p>';
                         echo '<strong class="text-title me-3 font-theme">'.esc_html__( 'Availability:', 'taxseco' ).'</strong>';
                         if( $product->get_stock_quantity() ){
-                            echo '<span class="stock in-stock"><i class="far fa-check-square me-2 ms-1"></i>'.esc_html( $product->get_stock_quantity() ).'</span>';
+                            echo '<span class="stock in-stock"><i class="fas fa-check-square me-2 ms-1"></i>'.esc_html( $product->get_stock_quantity() ).'</span>';
                         }else{
-                            echo '<span class="stock in-stock"><i class="far fa-check-square me-2 ms-1"></i>'.esc_html__( 'In Stock', 'taxseco' ).'</span>';
+                            echo '<span class="stock in-stock"><i class="fas fa-check-square me-2 ms-1"></i>'.esc_html__( 'In Stock', 'taxseco' ).'</span>';
                         }
                     echo '</p>';
                 echo '</div>';
@@ -470,7 +470,7 @@ if( !function_exists('taxseco_woocommerce_single_product_availability') ) {
             echo '<div class="mt-2 link-inherit">';
                 echo '<p>';
                     echo '<strong class="text-title me-3 font-theme">'.esc_html__( 'Availability:', 'taxseco' ).'</strong>';
-                    echo '<span class="stock out-of-stock"><i class="far fa-check-square me-2 ms-1"></i>'.esc_html__( 'Out Of Stock', 'taxseco' ).'</span>';
+                    echo '<span class="stock out-of-stock"><i class="fas fa-check-square me-2 ms-1"></i>'.esc_html__( 'Out Of Stock', 'taxseco' ).'</span>';
                 echo '</p>';
             echo '</div>';
             echo '<!--End Product Availability -->';
@@ -628,7 +628,7 @@ function woocommerce_template_loop_add_to_cart( $args = array() ) {
             esc_attr( isset( $args['quantity'] ) ? $args['quantity'] : 1 ),
             esc_attr( isset( $args['class'] ) ? $args['class'] : 'cart-button icon-btn' ),
             isset( $args['attributes'] ) ? wc_implode_html_attributes( $args['attributes'] ) : '',
-            '<i class="far fa-cart-plus"></i>'
+            '<i class="fas fa-cart-plus"></i>'
         );
 }
 
@@ -639,7 +639,7 @@ function taxseco_custom_product_searchform( $form ) {
     $form = '<form class="search-form" role="search" method="get" action="' . esc_url( home_url( '/'  ) ) . '">
         <label class="screen-reader-text" for="s">' . __( 'Search for:', 'taxseco' ) . '</label>
         <input type="text" value="' . get_search_query() . '" name="s" id="s" placeholder="' . __( 'Search', 'taxseco' ) . '" />
-        <button class="submit-btn" type="submit"><i class="far fa-search"></i></button>
+        <button class="submit-btn" type="submit"><i class="fas fa-search"></i></button>
         <input type="hidden" name="post_type" value="product" />
     </form>';
 

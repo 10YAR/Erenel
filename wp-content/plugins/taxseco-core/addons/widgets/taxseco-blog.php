@@ -595,8 +595,7 @@ class Taxseco_Blog_Post extends Widget_Base {
 			                            echo '<h3 class="blog-title"><a href="'.esc_url( get_permalink() ).'">'.esc_html( wp_trim_words( get_the_title( ), $settings['title_count'], '' ) ).'</a></h3>';
 			                        }
 			                        echo '<div class="blog-meta style2">';
-			                            echo '<a href="'.esc_url( taxseco_blog_date_permalink() ).'">'.esc_html( get_the_date( 'd M, Y' ) ).'</a>';
-			                            echo '<a href="'.esc_url( get_author_posts_url( get_the_author_meta('ID') ) ).'">'.esc_html__('By ', 'acadu').esc_html( ucwords( get_the_author() ) ).'</a>';
+			                            echo '<a href="'.esc_url( taxseco_blog_date_permalink() ).'">'.esc_html( get_the_date( 'd M Y' ) ).'</a>';
 			                        echo '</div>';
 			                        if(!empty($settings['read_more'])){
 		                                echo '<a href="'.esc_url( get_permalink() ).'" class="link-btn">'.esc_html($settings['read_more']).'<i class="fas fa-arrow-right"></i></a>';
@@ -625,8 +624,7 @@ class Taxseco_Blog_Post extends Widget_Base {
 			                            echo '<h3 class="blog-title"><a href="'.esc_url( get_permalink() ).'">'.esc_html( wp_trim_words( get_the_title( ), $settings['title_count'], '' ) ).'</a></h3>';
 			                        }
 		                            echo '<div class="blog-meta style2">';
-		                                echo '<a href="'.esc_url( taxseco_blog_date_permalink() ).'">'.esc_html( get_the_date( 'd M, Y' ) ).'</a>';
-			                            echo '<a href="'.esc_url( get_author_posts_url( get_the_author_meta('ID') ) ).'">'.esc_html__('By ', 'acadu').esc_html( ucwords( get_the_author() ) ).'</a>';
+		                                echo '<a href="'.esc_url( taxseco_blog_date_permalink() ).'">'.esc_html( get_the_date( 'd M Y' ) ).'</a>';
 		                            echo '</div>';
 		                            if(!empty($settings['read_more'])){
 		                                echo '<a href="'.esc_url( get_permalink() ).'" class="link-btn">'.esc_html($settings['read_more']).'<i class="fas fa-arrow-right"></i></a>';
@@ -655,8 +653,7 @@ class Taxseco_Blog_Post extends Widget_Base {
 			                            echo '<h3 class="blog-title"><a href="'.esc_url( get_permalink() ).'">'.esc_html( wp_trim_words( get_the_title( ), $settings['title_count'], '' ) ).'</a></h3>';
 			                        }
 			                        echo '<div class="blog-meta style2">';
-			                            echo '<a href="'.esc_url( taxseco_blog_date_permalink() ).'">'.esc_html( get_the_date( 'd M, Y' ) ).'</a>';
-			                            echo '<a href="'.esc_url( get_author_posts_url( get_the_author_meta('ID') ) ).'">'.esc_html__('By ', 'acadu').esc_html( ucwords( get_the_author() ) ).'</a>';
+			                            echo '<a href="'.esc_url( taxseco_blog_date_permalink() ).'">'.esc_html( get_the_date( 'd M Y' ) ).'</a>';
 			                        echo '</div>';
 			                    echo '</div>';
 			                echo '</div>';
@@ -682,8 +679,7 @@ class Taxseco_Blog_Post extends Widget_Base {
 			                            echo '<h3 class="blog-title style2"><a href="'.esc_url( get_permalink() ).'">'.esc_html( wp_trim_words( get_the_title( ), $settings['title_count'], '' ) ).'</a></h3>';
 			                        }
 			                        echo '<div class="blog-meta style2">';
-			                            echo '<a href="'.esc_url( taxseco_blog_date_permalink() ).'">'.esc_html( get_the_date( 'd M, Y' ) ).'</a>';
-			                            echo '<a href="'.esc_url( get_author_posts_url( get_the_author_meta('ID') ) ).'">'.esc_html__('By ', 'acadu').esc_html( ucwords( get_the_author() ) ).'</a>';
+			                            echo '<a href="'.esc_url( taxseco_blog_date_permalink() ).'">'.esc_html( get_the_date( 'd M Y' ) ).'</a>';
 			                        echo '</div>';
 			                    echo '</div>';
 			                echo '</div>';
