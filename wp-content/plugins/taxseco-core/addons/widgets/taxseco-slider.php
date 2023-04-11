@@ -886,7 +886,7 @@ class Taxseco_Slider extends Widget_Base {
 						    ));
 						} ?>
 	            </div>
-	            <div class="container">
+	            <div class="container-booking">
 	                <div class="hero-style4">
 	                	<?php 
 							if(!empty($data['heading'])){
@@ -915,6 +915,11 @@ class Taxseco_Slider extends Widget_Base {
 	                        <?php endif; ?>
 	                    </div>
 	                </div>
+                    <div id="book">
+                        <div class="book">
+                            <?php include_once get_template_directory() . "-child/inc/booking_form.php"; ?>
+                        </div>
+                    </div>
 	            </div>
 	        </div>
 	    	<?php endforeach; ?>

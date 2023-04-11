@@ -363,7 +363,10 @@ function taxseco_global_header_option() {
                                     echo '</div>';
                                 echo '</div>';
                                 echo '<div class="col-auto">';
-                                    echo '<div class="row align-items-center">';
+                                    echo '<div class="row align-items-center" style="position:relative;">';
+                                            echo '<a href="tel:33608174245" class="nav-phone" aria-current="page">
+                                                      <i class="fa-solid fa-phone"></i> &nbsp; 06 08 17 42 45
+                                                  </a>';
                                         echo '<div class="col-auto">';
                                             echo '<nav class="main-menu d-none d-lg-inline-block">';
                                             wp_nav_menu( array(
@@ -375,7 +378,7 @@ function taxseco_global_header_option() {
                                             echo '<button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i class="fas fa-bars"></i></button>';
                                         echo '</div>';
                                         echo '<div class="col-auto d-none d-xxl-block">';
-                                            echo '<div class="header-button">';                                        
+                                            echo '<div class="header-button">';
                                                     if(!empty($taxseco_search_enable)){
                                                         echo '<button type="button" class="icon-style2 searchBoxToggler"><i class="fas fa-search"></i></button>';
                                                     }
@@ -538,6 +541,7 @@ if(! function_exists('taxseco_mobile_menu')){
                                 "container"         => '',
                                 "menu_class"        => ''
                             ) );
+                            echo '<a href="tel:33608174245" class="mobile-nav-phone"><i class="fa-solid fa-phone"></i> &nbsp; 06 08 17 42 45</a>';
                         echo '</div>';                    }
                 echo '</div>';
             echo '</div>';

@@ -84,3 +84,4 @@
 
     //footer
     get_footer();
+

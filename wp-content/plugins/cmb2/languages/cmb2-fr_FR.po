@@ -2,99 +2,112 @@
 # This file is distributed under the same license as the Plugins - CMB2 - Development (trunk) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-10-07 23:16:04+0000\n"
+"PO-Revision-Date: 2023-03-27 20:40+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: fr\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: fr_FR\n"
 "Project-Id-Version: Plugins - CMB2 - Development (trunk)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-27 20:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"X-Loco-Version: 2.6.4; wp-6.1.1"
 
 #. translators: %s: register_routes()
 #: includes/shim/WP_REST_Controller.php:25
 msgid "Method '%s' must be overridden."
-msgstr ""
+msgstr "La méthode \"%s\" doit être remplacée."
 
 #: example-functions.php:732
 msgid "%s &mdash; Updated!"
-msgstr ""
+msgstr "%s &mdash ; Mise à jour !"
 
 #: includes/CMB2_Hookup_Base.php:42
 msgid "%1$s should be implemented by the extended class."
-msgstr ""
+msgstr "%1$s doit être implémenté par la classe étendue."
 
 #. Author URI of the plugin/theme
 msgid "https://cmb2.io"
-msgstr ""
+msgstr "https://cmb2.io"
 
 #. Author of the plugin/theme
 msgid "CMB2 team"
-msgstr ""
+msgstr "L'équipe de CMB2"
 
 #. Plugin URI of the plugin/theme
 msgid "https://github.com/CMB2/CMB2"
-msgstr ""
+msgstr "https://github.com/CMB2/CMB2"
 
 #: includes/CMB2_Types.php:412
 msgid "Remove Row"
-msgstr ""
+msgstr "Supprimer la rangée"
 
 #: includes/CMB2_Options_Hookup.php:131
 msgid "Nothing to update."
-msgstr ""
+msgstr "Rien à mettre à jour."
 
 #: includes/CMB2_Options_Hookup.php:135
 msgid "Settings updated."
-msgstr ""
+msgstr "Paramètres mis à jour."
 
 #: example-functions.php:665
 msgid "Theme Options"
-msgstr ""
+msgstr "Options du thème"
 
 #: includes/CMB2_hookup.php:458
 msgid "Toggle panel: %s"
-msgstr ""
+msgstr "Panneau basculant : %s"
 
 #: includes/CMB2_Types.php:231
 msgid "Custom CMB2 field type classes must extend CMB2_Type_Base."
 msgstr ""
+"Les classes de types de champs CMB2 personnalisés doivent étendre "
+"CMB2_Type_Base."
 
 #: example-functions.php:783
 msgid "Will show in REST API \"editable\" contexts only (`POST` requests)."
 msgstr ""
+"S'affichera uniquement dans les contextes \"éditables\" de l'API REST "
+"(requêtes `POST`)."
 
 #: example-functions.php:782
 msgid "REST Editable Test Text"
-msgstr ""
+msgstr "Texte de test modifiable REST"
 
 #: example-functions.php:776
 msgid "Will show in the REST API for this box and for pages."
-msgstr ""
+msgstr "S'affichera dans l'API REST pour cette boîte et pour les pages."
 
 #: example-functions.php:775
 msgid "REST Test Text"
-msgstr ""
+msgstr "Texte du test REST"
 
 #: example-functions.php:766
 msgid "REST Test Box"
-msgstr ""
+msgstr "Boîte de test REST"
 
 #: includes/shim/WP_REST_Controller.php:308
-msgid "Scope under which the request is made; determines fields present in response."
+msgid ""
+"Scope under which the request is made; determines fields present in response."
 msgstr ""
+"Champ d'application de la demande ; détermine les champs présents dans la "
+"réponse."
 
 #: includes/shim/WP_REST_Controller.php:290
 msgid "Limit results to those matching a string."
 msgstr ""
+"Limite les résultats à ceux qui correspondent à une chaîne de caractères."
 
 #: includes/shim/WP_REST_Controller.php:281
 msgid "Maximum number of items to be returned in result set."
-msgstr ""
+msgstr "Nombre maximal d'éléments à renvoyer dans l'ensemble de résultats."
 
 #: includes/shim/WP_REST_Controller.php:273
 msgid "Current page of the collection."
-msgstr ""
+msgstr "Page actuelle de la collection."
 
 #: includes/shim/WP_REST_Controller.php:35
 #: includes/shim/WP_REST_Controller.php:47
@@ -110,147 +123,210 @@ msgstr ""
 #: includes/shim/WP_REST_Controller.php:168
 msgid "Method '%s' not implemented. Must be overridden in subclass."
 msgstr ""
+"La méthode \"%s\" n'est pas implémentée. Doit être surchargée dans la sous-"
+"classe."
 
 #: includes/rest-api/CMB2_REST_Controller_Fields.php:415
 msgid "Value Error for %s"
-msgstr ""
+msgstr "Erreur de valeur pour %s"
 
 #: includes/rest-api/CMB2_REST_Controller_Fields.php:312
 #: includes/rest-api/CMB2_REST_Controller_Fields.php:341
 msgid "No field found by that id."
-msgstr ""
+msgstr "Aucun champ n'a été trouvé pour cet identifiant."
 
 #: includes/rest-api/CMB2_REST_Controller_Fields.php:297
-msgid "CMB2 Field value cannot be modified without the object_id and object_type parameters specified."
+msgid ""
+"CMB2 Field value cannot be modified without the object_id and object_type "
+"parameters specified."
 msgstr ""
+"CMB2 La valeur du champ ne peut pas être modifiée sans que les paramètres "
+"object_id et object_type soient spécifiés."
 
 #: includes/rest-api/CMB2_REST_Controller_Fields.php:236
-msgid "CMB2 Field value cannot be updated without the value parameter specified."
+msgid ""
+"CMB2 Field value cannot be updated without the value parameter specified."
 msgstr ""
+"CMB2 La valeur du champ ne peut pas être mise à jour si le paramètre de "
+"valeur n'est pas spécifié."
 
 #: includes/rest-api/CMB2_REST_Controller_Fields.php:33
 #: includes/rest-api/CMB2_REST_Controller_Fields.php:36
-msgid "To view or modify the field's value, the 'object_id' and 'object_type' arguments are required."
+msgid ""
+"To view or modify the field's value, the 'object_id' and 'object_type' "
+"arguments are required."
 msgstr ""
+"Pour afficher ou modifier la valeur du champ, les arguments \"object_id\" et "
+"\"object_type\" sont nécessaires."
 
 #: includes/rest-api/CMB2_REST_Controller_Fields.php:30
-msgid "When the '_rendered' argument is passed, the renderable field attributes will be returned fully rendered. By default, the names of the callback handers for the renderable attributes will be returned."
+msgid ""
+"When the '_rendered' argument is passed, the renderable field attributes "
+"will be returned fully rendered. By default, the names of the callback "
+"handers for the renderable attributes will be returned."
 msgstr ""
+"Lorsque l'argument \"_rendered\" est fourni, les attributs du champ pouvant "
+"être rendus sont renvoyés avec un rendu complet. Par défaut, les noms des "
+"gestionnaires de rappel pour les attributs rendables seront renvoyés."
 
 #: includes/rest-api/CMB2_REST_Controller_Fields.php:27
-msgid "Includes the box object which the fields are registered to in the response."
+msgid ""
+"Includes the box object which the fields are registered to in the response."
 msgstr ""
+"Inclut dans la réponse l'objet \"boîte\" dans lequel les champs sont "
+"enregistrés."
 
 #: includes/rest-api/CMB2_REST_Controller_Boxes.php:122
 msgid "No boxes found."
-msgstr ""
+msgstr "Aucune boîte n'a été trouvée."
 
 #: includes/rest-api/CMB2_REST_Controller_Boxes.php:72
-msgid "Includes the fully rendered attributes, 'form_open', 'form_close', as well as the enqueued 'js_dependencies' script handles, and 'css_dependencies' stylesheet handles."
+msgid ""
+"Includes the fully rendered attributes, 'form_open', 'form_close', as well "
+"as the enqueued 'js_dependencies' script handles, and 'css_dependencies' "
+"stylesheet handles."
 msgstr ""
+"Inclut les attributs entièrement rendus, 'form_open', 'form_close', ainsi "
+"que les poignées de script 'js_dependencies' et les poignées de feuille de "
+"style 'css_dependencies' en file d'attente."
 
 #: includes/rest-api/CMB2_REST_Controller_Boxes.php:51
 msgid "Includes the registered fields for the box in the response."
-msgstr ""
+msgstr "Inclut les champs enregistrés pour la boîte dans la réponse."
 
 #: includes/rest-api/CMB2_REST_Controller.php:392
 msgid "The title for the object."
-msgstr ""
+msgstr "Le titre de l'objet."
 
 #: includes/rest-api/CMB2_REST_Controller.php:385
 msgid "The id for the object."
-msgstr ""
+msgstr "L'identifiant de l'objet."
 
 #: includes/rest-api/CMB2_REST_Controller.php:378
 msgid "A human-readable description of the object."
-msgstr ""
+msgstr "Description de l'objet lisible par l'homme."
 
 #: includes/rest-api/CMB2_REST_Controller.php:300
-msgid "No box found by that id. A box needs to be registered with the \"show_in_rest\" parameter configured."
+msgid ""
+"No box found by that id. A box needs to be registered with the "
+"\"show_in_rest\" parameter configured."
 msgstr ""
+"Aucune boîte n'a été trouvée pour cet identifiant. Une boîte doit être "
+"enregistrée avec le paramètre \"show_in_rest\" configuré."
 
 #: includes/rest-api/CMB2_REST_Controller.php:277
 msgid "This box does not have write permissions."
-msgstr ""
+msgstr "Cette boîte n'a pas de droits d'écriture."
 
 #: includes/rest-api/CMB2_REST_Controller.php:257
 msgid "This box does not have read permissions."
-msgstr ""
+msgstr "Cette boîte n'a pas d'autorisation de lecture."
 
 #: includes/CMB2_Base.php:506 includes/types/CMB2_Type_Base.php:156
 msgid "Invalid %1$s method: %2$s"
-msgstr ""
+msgstr "Méthode invalide %1$s : %2$s"
 
 #: includes/CMB2_Base.php:491 includes/CMB2_Hookup_Base.php:100
 #: includes/CMB2_Options_Hookup.php:341 includes/types/CMB2_Type_Base.php:172
 msgid "Invalid %1$s property: %2$s"
-msgstr ""
+msgstr "Propriété invalide %1$s : %2$s"
 
 #: includes/CMB2_Base.php:458
-msgid "%1$s was called with a parameter that is <strong>deprecated</strong> since version %2$s with no alternative available."
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s with no alternative available."
 msgstr ""
+"%1$s a été appelé avec un paramètre qui est <strong>deprecated</strong> "
+"depuis la version %2$s sans qu'aucune alternative ne soit disponible."
 
 #: includes/CMB2_Base.php:456
-msgid "%1$s was called with a parameter that is <strong>deprecated</strong> since version %2$s! %3$s"
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s! %3$s"
 msgstr ""
+"%1$s a été appelé avec un paramètre qui est <strong>déprécié</strong> depuis "
+"la version %2$s ! %3$s"
 
 #: includes/CMB2_Base.php:426
-msgid "Using the \"%1$s\" field parameter as a callback has been deprecated in favor of the \"%2$s\" parameter."
+msgid ""
+"Using the \"%1$s\" field parameter as a callback has been deprecated in "
+"favor of the \"%2$s\" parameter."
 msgstr ""
+"L'utilisation du paramètre de champ \"%1$s\" en tant que rappel a été "
+"supprimée au profit du paramètre \"%2$s\"."
 
 #: includes/CMB2_Base.php:422
-msgid "The \"%1$s\" field parameter has been deprecated in favor of the \"%2$s\" parameter."
+msgid ""
+"The \"%1$s\" field parameter has been deprecated in favor of the \"%2$s\" "
+"parameter."
 msgstr ""
+"Le paramètre de champ \"%1$s\" a été supprimé au profit du paramètre "
+"\"%2$s\"."
 
 #. translators: %s: link to codex.wordpress.org/Embeds
 #: example-functions.php:426
-msgid "Enter a youtube, twitter, or instagram URL. Supports services listed at %s."
+msgid ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at %s."
 msgstr ""
+"Entrez une URL youtube, twitter ou instagram. Prend en charge les services "
+"répertoriés à %s."
 
 #: example-functions.php:167
 msgid "Hey there, I'm a read-only field"
-msgstr ""
+msgstr "Bonjour, je suis un champ en lecture seule"
 
 #: example-functions.php:163
 msgid "Read-only Disabled Field"
-msgstr ""
+msgstr "Lecture seule Champ désactivé"
 
 #. translators: 1: results for. 2: link to codex.wordpress.org/Embeds
 #: includes/CMB2_Ajax.php:189 includes/helper-functions.php:105
 msgid "No oEmbed Results Found for %1$s. View more info at %2$s."
 msgstr ""
+"Aucun résultat oEmbed n'a été trouvé pour %1$s. Voir plus d'informations sur "
+"%2$s."
 
 #: includes/CMB2_Field.php:1443
 msgid "Sorry, this field does not have a cmb_id specified."
-msgstr ""
+msgstr "Désolé, ce champ n'a pas de cmb_id spécifié."
 
 #: example-functions.php:176
 msgid "Custom Rendered Field"
-msgstr ""
+msgstr "Champ rendu personnalisé"
 
 #: includes/CMB2_hookup.php:185
 msgid "Term metaboxes configuration requires a \"taxonomies\" parameter."
 msgstr ""
+"La configuration des métaboxes de termes nécessite un paramètre "
+"\"taxonomies\"."
 
 #: includes/CMB2_hookup.php:181
-msgid "Term Metadata is a WordPress 4.4+ feature. Please upgrade your WordPress install."
+msgid ""
+"Term Metadata is a WordPress 4.4+ feature. Please upgrade your WordPress "
+"install."
 msgstr ""
+"Les métadonnées des termes sont une fonctionnalité de WordPress 4.4+. "
+"Veuillez mettre à jour votre installation de WordPress."
 
 #: example-functions.php:646
 msgid "Arbitrary Term Field"
-msgstr ""
+msgstr "Champ de terme arbitraire"
 
 #: example-functions.php:639
 msgid "Term Image"
-msgstr ""
+msgstr "Image du terme"
 
 #: example-functions.php:624
 msgid "Category Metabox"
-msgstr ""
+msgstr "Catégorie Metabox"
 
 #. Description of the plugin/theme
-msgid "CMB2 will create metaboxes and forms with custom fields that will blow your mind."
-msgstr "CMB2 créera des boites à méta et des formulaires avec des champs personnalisés à vous couper le souffle."
+msgid ""
+"CMB2 will create metaboxes and forms with custom fields that will blow your "
+"mind."
+msgstr ""
+"CMB2 créera des boites à méta et des formulaires avec des champs "
+"personnalisés à vous couper le souffle."
 
 #. Plugin Name of the plugin/theme
 msgid "CMB2"
@@ -307,7 +383,9 @@ msgid "Use this file"
 msgstr "﻿Utiliser ce fichier"
 
 #: includes/CMB2_JS.php:218
-msgctxt "Valid formatting string, as per http://trentrichardson.com/examples/timepicker/"
+msgctxt ""
+"Valid formatting string, as per http://trentrichardson."
+"com/examples/timepicker/"
 msgid "hh:mm TT"
 msgstr "hh:mm TT"
 
@@ -356,8 +434,12 @@ msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
 msgstr "Jan, Fév, Mar, Avr, Mai, Jun, Jul, Aoû, Sep, Oct, Nov, Déc"
 
 #: includes/CMB2_JS.php:202
-msgid "January, February, March, April, May, June, July, August, September, October, November, December"
-msgstr "﻿Janvier, Février, Mars, Avril, Mai, Juin, Juillet, Août, Septembre, Octobre, Novembre, Décembre"
+msgid ""
+"January, February, March, April, May, June, July, August, September, October,"
+" November, December"
+msgstr ""
+"﻿Janvier, Février, Mars, Avril, Mai, Juin, Juillet, Août, Septembre, Octobre,"
+" Novembre, Décembre"
 
 #: includes/CMB2_JS.php:201
 msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
@@ -419,6 +501,8 @@ msgstr "Cliquer pour inverser"
 #: includes/CMB2.php:179
 msgid "Metabox configuration is required to have an ID parameter."
 msgstr ""
+"La configuration de la boîte à outils doit comporter un paramètre "
+"d'identification."
 
 #: example-functions.php:695
 msgid "Site Background Color"

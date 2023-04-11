@@ -4,7 +4,7 @@ Author: Translate AI Multilingual Solutions
 Tags: translate, translate wordpress, multilingual, translation, translate language, bilingual, localization, translation proxy, localisation, multilanguage, google translate
 Requires at least: 2.8.1
 Tested up to: 6.1
-Stable tag: 3.0.1
+Stable tag: 3.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://gtranslate.io/?xyz=998#pricing
@@ -248,6 +248,10 @@ If you want us to translate your website professionally or provide you a proofre
 8. User Dashboard (paid)
 
 == Changelog ==
+= 3.0.2 =
+* Fix for multiple appearance of the language selector in menus for some themes which call the render menu more than once
+* Removed unused CSS code and additional query string
+
 = 3.0.1 =
 * Ground up rebuild with breaking changes to the language switcher
 * Performance upgrades: all unnecessary assets are being lazy loaded, lightweight vanilla js without dependencies

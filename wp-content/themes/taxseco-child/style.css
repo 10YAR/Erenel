@@ -12,6 +12,19 @@
 
 /*  [ Add your custom css below ]
 - - - - - - - - - - - - - - - - - - - - */
+a:hover {
+    color: rgb(0,175,219) !important;
+    transition: 0.3s;
+}
+
+.rounded-image div {
+    border-radius: 24px;
+}
+
+.as-btn.style4:hover {
+    color: #fff !important;
+}
+
 
 .header-layout1 .header-top {
     background-color: transparent;
@@ -23,6 +36,10 @@
     color: var(--theme-color);
 }
 
+.header-logo {
+    margin-left: 20px;
+}
+
 .elementor-widget-container .tab-menu3  {
     display: none;
 }
@@ -30,7 +47,8 @@
 .erenel-color,
 .subtitle-selector,
 .testi-block_desig,
-.blog-content > a {
+.blog-content > a,
+.feature-box_title {
     color: #008CAF;
     background-color: #0083AF;
     background-image: linear-gradient(45deg, #0083AF, #00B3C4);
@@ -39,4 +57,338 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+}
+
+
+.price-box_package {
+    color: #fff;
+}
+
+.main-menu a {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+.service-box_text {
+    color: lightgray;
+}
+
+@media screen and (max-width: 768px) {
+    .elementor-246 .elementor-element.elementor-element-a3f66b6 {
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .elementor-246 .elementor-element.elementor-element-a3f66b6 {
+        width: 100% !important;
+    }
+}
+
+.price-box-wrap {
+    border-radius: 50px;
+}
+
+.qlwapp-text:hover,
+.qlwapp-icon:hover,
+.qlwapp-toggle:hover .qlwapp-text,
+.qlwapp-toggle:hover .qlwapp-icon{
+    color: #000;
+    transition: 0.5s;
+}
+
+.blog-content .as-btn {
+    text-align: right;
+    display: block;
+}
+
+.blog-content .as-btn:before {
+    display: none;
+}
+
+.nav-phone {
+    color: #fff;
+    position: absolute;
+    left: -15rem;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    width: auto;
+}
+
+.mobile-nav-phone {
+    display: block;
+    position: relative;
+    line-height: 1.4;
+    padding: 12px 40px;
+    margin-top: 25px;
+}
+
+.hero-style4 .hero-title:first-of-type{
+    font-size: 70px !important;
+}
+.hero-style4 .hero-title {
+    font-size: 80px !important;
+}
+
+
+.slick-arrow {
+    display: none !important;
+}
+
+.btn-group {
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Booking Form */
+
+.container-booking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex: 1 1 auto;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-booking > div {
+    width: 50%;
+}
+
+#book {
+    padding: 0 5%;
+}
+
+.book {
+    background-color: white;
+    padding: 30px 30px;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.field-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.strong-stat {
+    font-size: 16px;
+    line-height: 22px;
+    color: #444444;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    display: block;
+}
+
+.d-rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    width: 100%;
+}
+
+.d-rows > div {
+    width: 100%;
+}
+
+.book input[type="text"],
+.book select {
+    margin-bottom: 10px;
+    height: 40px;
+    padding: 0 10px 0 35px;
+}
+
+.book select {
+    padding: 0 25px 0 40px;
+}
+
+.book .as-btn {
+    margin-top: 5px;
+    padding: 12px 31px;
+}
+
+.booking-btn {
+    border: 2px solid #00AFDB;
+}
+
+.booking-btn:hover,
+.booking-btn:focus {
+    color: #00AFDB !important;
+    transition: 0.3s;
+}
+
+.book .form-group > i {
+    top: 12px;
+    left: 10px;
+    right: unset;
+}
+
+.hero-slider-4 .as-hero-slide {
+    padding: 180px 0;
+}
+
+@media screen and (min-width: 2250px) {
+    #book {
+        padding: 0;
+        margin-right: 10%;
+    }
+    .book {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 2249px) {
+    .nav-phone {
+        left: -13rem;
+    }
+    .hero-style4 .hero-title:first-of-type{
+        font-size: 60px !important;
+    }
+    .hero-style4 .hero-title {
+        font-size: 70px !important;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .header-logo {
+        margin-left: 20px;
+    }
+    .nav-phone {
+        left: -15rem;
+    }
+    .hero-style4 .hero-title:first-of-type{
+        font-size: 50px !important;
+    }
+    .hero-style4 .hero-title {
+        font-size: 60px !important;
+    }
+    .hero-slider-4 .as-hero-slide {
+        padding: 80px 0;
+    }
+}
+
+@media screen and (max-width: 1770px) {
+    .nav-phone {
+        left: -12rem;
+    }
+    #book {
+        padding: 0 2%;
+    }
+    .book {
+        padding: 25px 25px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .nav-phone {
+        left: -21rem;
+    }
+    .header-logo {
+        margin-left: 20px;
+    }
+    .hero-style4 .hero-title:first-of-type{
+        font-size: 45px !important;
+    }
+    .hero-style4 .hero-title {
+        font-size: 55px !important;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .nav-phone {
+        left: -90%;
+    }
+    .header-logo {
+        margin-left: 10px;
+    }
+    .hero-style4 .hero-title:first-of-type{
+        font-size: 40px !important;
+    }
+    .hero-style4 .hero-title {
+        font-size: 50px !important;
+    }
+    #book {
+        padding: 0 0;
+    }
+    .book {
+        padding: 20px 20px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1300px) {
+    .header-layout1 .container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1195px) {
+    .nav-phone {
+        left: -75%;
+    }
+    .header-logo {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .nav-phone {
+        left: -60%;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .nav-phone {
+        left: -50%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-phone {
+       display: none;
+    }
+    .header-logo {
+        margin-left: -5px;
+    }
+    .hero-style4 {
+        display: none;
+    }
+    #book {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    #book {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .container-booking {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container-booking {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .book {
+        width: 95%;
+    }
 }

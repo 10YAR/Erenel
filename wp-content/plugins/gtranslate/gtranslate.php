@@ -3,7 +3,7 @@
 Plugin Name: GTranslate
 Plugin URI: https://gtranslate.io/?xyz=998
 Description: Translate your website and make it multilingual. For support visit <a href="https://wordpress.org/support/plugin/gtranslate">GTranslate Support Forum</a>.
-Version: 3.0.1
+Version: 3.0.2
 Author: Translate AI Multilingual Solutions
 Author URI: https://gtranslate.io
 Text Domain: gtranslate
@@ -122,7 +122,7 @@ class GTranslate extends WP_Widget {
 
     public static function add_script_attributes($tag, $handle, $src) {
         if(!empty($src) and strpos($handle, 'gt_widget_script_') === 0) {
-            $orig_url = $_SERVER['REQUEST_URI'];
+            $orig_url = strtok($_SERVER['REQUEST_URI'], '?');
             $orig_domain = parse_url(site_url(), PHP_URL_HOST);
             $widget_id = str_replace('gt_widget_script_', '', $handle);
 
@@ -2133,9 +2133,10 @@ if(!empty($data['show_in_menu'])) {
 
         if($args->theme_location == $data['show_in_menu']) {
             if($data['widget_look'] == 'dropdown_with_flags' or $data['widget_look'] == 'float') {
+                $unique_wrapper_id = wp_rand(10000, 88888);
                 $items .= '<li style="position:relative;" class="menu-item menu-item-gtranslate">';
-                $items .= '<div style="position:absolute;white-space:nowrap;" id="gtranslate_menu_wrapper">';
-                $items .= GTranslate::get_widget_code(array('wrapper_selector' => '#gtranslate_menu_wrapper', 'position' => 'inline'));
+                $items .= '<div style="position:absolute;white-space:nowrap;" id="gtranslate_menu_wrapper_' . $unique_wrapper_id . '">';
+                $items .= GTranslate::get_widget_code(array('wrapper_selector' => '#gtranslate_menu_wrapper_' . $unique_wrapper_id, 'position' => 'inline'));
                 $items .= '</div>';
                 $items .= '</li>';
             } elseif($data['widget_look'] == 'flags' or $data['widget_look'] == 'flags_code' or $data['widget_look'] == 'flags_name' or $data['widget_look'] == 'lang_codes' or $data['widget_look'] == 'lang_names') {
@@ -2159,8 +2160,9 @@ if(!empty($data['show_in_menu'])) {
 
                 $items .= '</li>';
             } else {
-                $items .= '<li style="position:relative;" class="menu-item menu-item-gtranslate">';
-                $items .= GTranslate::get_widget_code(array('wrapper_selector' => 'li.menu-item-gtranslate', 'position' => 'inline'));
+                $unique_menu_class = 'gt-menu-' . wp_rand(10000, 88888);
+                $items .= '<li style="position:relative;" class="menu-item menu-item-gtranslate ' . $unique_menu_class . '">';
+                $items .= GTranslate::get_widget_code(array('wrapper_selector' => 'li.menu-item-gtranslate.' . $unique_menu_class, 'position' => 'inline'));
                 $items .= '</li>';
             }
         }

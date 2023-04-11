@@ -182,7 +182,7 @@
                                     echo taxseco_heading_tag(
                                         array(
                                             "tag"   => esc_attr( $taxseco_page_title_tag ),
-                                            "text"  => !empty( $taxseco_blog_page_custom_title ) && $taxseco_blog_page_title_setting == 'custom' ? esc_html( $taxseco_blog_page_custom_title) : esc_html__( 'Latest News', 'taxseco' ),
+                                            "text"  => !empty( $taxseco_blog_page_custom_title ) && $taxseco_blog_page_title_setting == 'custom' ? esc_html( $taxseco_blog_page_custom_title) : esc_html__( 'Actualités', 'taxseco' ),
                                             'class' => 'breadcumb-title'
                                         )
                                     );
@@ -191,7 +191,7 @@
                                 echo taxseco_heading_tag(
                                     array(
                                         "tag"   => "h1",
-                                        "text"  => esc_html__( 'Latest News', 'taxseco' ),
+                                        "text"  => esc_html__( 'Lastest News', 'taxseco' ),
                                         'class' => 'breadcumb-title',
                                     )
                                 );

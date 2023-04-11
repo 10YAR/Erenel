@@ -82,19 +82,6 @@
         return href;
     }
 
-    var font_size = 10, margin_right = 3;
-    if(flag_size == 24)
-        font_size = 15, margin_right = 5;
-    else if(flag_size == 32)
-        font_size = 20, margin_right = 7;
-    else if(flag_size == 48)
-        font_size = 24, margin_right = 10;
-
-    widget_css += "a.glink{text-decoration:none}";
-    widget_css += u_class + " a.glink span{margin-right:"+margin_right+"px;font-size:"+font_size+"px;vertical-align:middle}";
-    widget_css += "a.glink img{vertical-align:middle;display:inline;border:0;padding:0;margin:0;opacity:0.8}";
-    widget_css += "a.glink:hover img{opacity:1}";
-
     var current_lang = document.querySelector('html').getAttribute('lang')||default_language;
     if(url_structure == 'none') {
         var googtrans_matches = document.cookie.match('(^|;) ?googtrans=([^;]*)(;|$)');
