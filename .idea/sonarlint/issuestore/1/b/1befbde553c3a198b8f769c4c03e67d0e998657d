@@ -1,0 +1,29 @@
+
+\	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤8æµ±Ğğ0
+\	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤8æµ±Ğğ0
+\	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤8æµ±Ğğ0
+\	php:S1131$"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤8æµ±Ğğ0
+\	php:S11315"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤8æµ±Ğğ0
+\	php:S1131;"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤8æµ±Ğğ0
+\	php:S1131@"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤8æµ±Ğğ0
+\	php:S1131F"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤8æµ±Ğğ0
+\	php:S1131K"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤8æµ±Ğğ0
+\	php:S1131Q"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤8æµ±Ğğ0
+s	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(ÛÇ›±ÿÿÿÿÿ8æµ±Ğğ0
+s	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(ÛÇ›±ÿÿÿÿÿ8æµ±Ğğ0
+k	php:S1808"JPut one space between the closing parenthesis and the opening curly brace.(ÛÇ›±ÿÿÿÿÿ8æµ±Ğğ0
+s	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(É°üşúÿÿÿÿ8çµ±Ğğ0
+s	php:S1808&"RRemove all space after the opening parenthesis and before the closing parenthesis.(‚¢ÚÊûÿÿÿÿ8çµ±Ğğ0
+s	php:S1808("RRemove all space after the opening parenthesis and before the closing parenthesis.(ˆÚ…‡ÿÿÿÿÿ8çµ±Ğğ0
+k	php:S1808("JPut one space between the closing parenthesis and the opening curly brace.(ˆÚ…‡ÿÿÿÿÿ8çµ±Ğğ0
+s	php:S1808)"RRemove all space after the opening parenthesis and before the closing parenthesis.(ªª±ûÿÿÿÿ8çµ±Ğğ0
+k	php:S1808)"JPut one space between the closing parenthesis and the opening curly brace.(ªª±ûÿÿÿÿ8çµ±Ğğ0
+s	php:S1808,"RRemove all space after the opening parenthesis and before the closing parenthesis.(“Ç†ıÿÿÿÿ8çµ±Ğğ0
+s	php:S18081"RRemove all space after the opening parenthesis and before the closing parenthesis.(¡Á¬áşÿÿÿÿ8çµ±Ğğ0
+n	php:S1808="RRemove all space after the opening parenthesis and before the closing parenthesis.(æÁ¶ø8çµ±Ğğ0
+n	php:S1808H"RRemove all space after the opening parenthesis and before the closing parenthesis.(ìïÄì8çµ±Ğğ0
+s	php:S1808S"RRemove all space after the opening parenthesis and before the closing parenthesis.(á¡™Óûÿÿÿÿ8çµ±Ğğ0
+e	php:S1808"DPut one space between this "if" keyword and the opening parenthesis.(ÛÇ›±ÿÿÿÿÿ8çµ±Ğğ0
+e	php:S1808("DPut one space between this "if" keyword and the opening parenthesis.(ˆÚ…‡ÿÿÿÿÿ8çµ±Ğğ0
+h	php:S1808)"GPut one space between this "while" keyword and the opening parenthesis.(ªª±ûÿÿÿÿ8çµ±Ğğ0
+b	php:S18080"FPut one space between this "else" keyword and the opening curly brace.(å¥‡8çµ±Ğğ0

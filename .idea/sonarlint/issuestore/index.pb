@@ -1,0 +1,27 @@
+
+_
+/wp-content/themes/taxseco/templates/content.php,e\2\e2ac3af062f906492af5de392eb2d4703499b7b9
+^
+.wp-content/themes/taxseco/templates/header.php,9\a\9a840edbb9453112ec2c1e33063c2e61d03c2468
+o
+?wp-content/plugins/taxseco-core/addons/widgets/taxseco-blog.php,f\d\fd0e3c8dea38c6baa7524453f06f8e926032a42f
+F
+wp-includes/plugin.php,a\a\aa6bb26d455b84ac17ebd9d66ffb0f0559642202
+P
+ wp-includes/general-template.php,0\3\03100930bd37ba500f52bf41d0f57cf991e6a7d0
+Z
+*wp-content/themes/taxseco/sidebar-page.php,6\3\6378f88a16a8a6c43b7179ea071ddb82139e124f
+U
+%wp-content/themes/taxseco/archive.php,6\5\651c872928ea3aecd4cfff0abde0a564014332dc
+Y
+)wp-content/themes/taxseco-child/style.css,c\8\c849af3807c8cb17e0b94e6831babcba8ef14502
+S
+#wp-content/themes/taxseco/index.php,4\e\4ee739617226875b4d2d4c6322fd24267e86ba74
+R
+"wp-content/themes/taxseco/page.php,1\b\1befbde553c3a198b8f769c4c03e67d0e998657d
+T
+$wp-content/themes/taxseco/footer.php,4\5\4572c0bc9ab85b0a3026be733c028f142da45f80
+T
+$wp-content/themes/taxseco/single.php,b\7\b79b59edb98f9c19f98f376d250bade7853e1f77
+^
+.wp-content/themes/taxseco/template-builder.php,a\4\a413adb276adeb6d690a579d1099363cb0c9d543

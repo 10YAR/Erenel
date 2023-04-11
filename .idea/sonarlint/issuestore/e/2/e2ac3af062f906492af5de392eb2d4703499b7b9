@@ -1,0 +1,8 @@
+
+l	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(ÛÇ›±ÿÿÿÿÿ
+l	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(ÛÇ›±ÿÿÿÿÿ
+d	php:S1808"JPut one space between the closing parenthesis and the opening curly brace.(‡ÎÅıÿÿÿÿ
+l	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(²§ëüÿÿÿÿ
+^	php:S1808"DPut one space between this "if" keyword and the opening parenthesis.(‡ÎÅıÿÿÿÿ
+[	php:S1808"FPut one space between this "else" keyword and the opening curly brace.(şÉ§ƒ
+3php:S113"'Add a new line at the end of this file.

@@ -1,0 +1,2874 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Taxseco\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-16 17:21+0000\n"
+"PO-Revision-Date: 2023-03-27 20:38+0000\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.1.1\n"
+"X-Domain: taxseco"
+
+#: inc/hooks/hooks-functions.php:369
+msgid " Comment"
+msgstr " Commentaire"
+
+#: inc/hooks/hooks-functions.php:371
+msgid " Comments"
+msgstr " Commentaires"
+
+#: comments.php:69 woocommerce/single-product-reviews.php:118
+msgid ""
+" Save my name, email, and website in this browser for the next time I "
+"comment."
+msgstr ""
+" Enregistrer mon nom, mon adresse électronique et mon site web dans ce "
+"navigateur pour la prochaine fois que je ferai un commentaire."
+
+#: woocommerce/cart/cart.php:149
+msgid " Update cart"
+msgstr " Mise à jour du panier"
+
+#: inc/hooks/hooks-functions.php:362
+msgid " Views"
+msgstr " Points de vue"
+
+#: inc/taxseco-functions.php:239
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: inc/woo-hooks/taxseco-woo-hooks-functions.php:485
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#. %s: Quantity.
+#: woocommerce/global/quantity-input.php:28
+#, php-format
+msgid "%s quantity"
+msgstr "quantité %s"
+
+#: inc/wp_bootstrap_pagination.php:21
+msgid "&laquo;"
+msgstr "&laquo ;"
+
+#: inc/wp_bootstrap_pagination.php:22
+msgid "&raquo;"
+msgstr "&raquo ;"
+
+#. %s location.
+#: woocommerce/cart/cart-totals.php:72
+#, php-format
+msgid "(estimated for %s)"
+msgstr "(estimé pour %s)"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:598
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:717
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:966
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1115
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1181
+msgid "1 Column"
+msgstr "1 Colonne"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:602
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:721
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:970
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1119
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1185
+msgid "2 Column Left"
+msgstr "2 colonnes à gauche"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:606
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:725
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:974
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1123
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1189
+msgid "2 Column Right"
+msgstr "2 Colonne droite"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1138
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1248
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1294
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1340
+msgid "2 Columns"
+msgstr "2 colonnes"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1142
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1252
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1298
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1344
+msgid "3 Columns"
+msgstr "3 colonnes"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1146
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1256
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1302
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1348
+msgid "4 Columns"
+msgstr "4 colonnes"
+
+#: 404.php:25 inc/taxseco-framework/taxseco-options/taxseco-options.php:1391
+msgid "404"
+msgstr "404"
+
+#: templates/header-menu-bottom.php:188
+msgid "404 PAGE"
+msgstr "404 PAGE"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1368
+msgid "404 Page"
+msgstr "404 Page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1150
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1158
+msgid "5 Columns"
+msgstr "5 colonnes"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1154
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1162
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1260
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1306
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1352
+msgid "6 Columns"
+msgstr "6 colonnes"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1755
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+"<p class=\"description\">Il s'agit d'une section créée par l'ajout d'un "
+"filtre au tableau des sections. Elle peut être utilisée par les thèmes "
+"enfants pour ajouter/supprimer des sections dans les options"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:209
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+"</p> <p>Il s'agit du contenu de la barre latérale, le HTML est autorisé"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:198
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:203
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+"</p> <p>Il s'agit du contenu de l'onglet, le HTML est autorisé.</p> <p "
+"class=\"spip\">Il s'agit du contenu de l'onglet"
+
+#: woocommerce/myaccount/form-login.php:107
+msgid "A password will be sent to your email address."
+msgstr "Un mot de passe sera envoyé à votre adresse électronique."
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:364
+msgid "achievement"
+msgstr "réalisation"
+
+#: woocommerce/myaccount/my-address.php:84
+msgid "Add"
+msgstr "Ajouter"
+
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:317
+#, php-format
+msgid "Add %s"
+msgstr "Ajouter %s"
+
+#. %s is product title
+#: woocommerce/single-product-reviews.php:68
+msgid "Add a review"
+msgstr "Ajouter un commentaire"
+
+#: inc/taxseco-widgets-reg.php:28
+msgid "Add Blog Sidebar Widgets Here."
+msgstr "Ajoutez des widgets dans la barre latérale du blog ici."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1602
+msgid "Add Copyright Text"
+msgstr "Ajouter le texte du droit d'auteur"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1079
+msgid "Add Gallery Image"
+msgstr "Ajouter une image à la galerie"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1080
+msgid "Add gallery Image and url."
+msgstr "Ajouter l'image et l'url de la galerie."
+
+#: inc/taxseco-widgets-reg.php:39
+msgid "Add Page Sidebar Widgets Here."
+msgstr "Ajoutez des widgets dans la barre latérale de la page ici."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1488
+msgid "Add social icon and url."
+msgstr "Ajouter l'icône sociale et l'url."
+
+#: woocommerce/wishlist-view.php:85
+msgid "Add To Cart"
+msgstr "Ajouter au panier"
+
+#: woocommerce/wishlist-view.php:182
+#, php-format
+msgid "Added on: %s"
+msgstr "Ajouté le : %s"
+
+#: woocommerce/checkout/form-shipping.php:61
+msgid "Additional information"
+msgstr "Informations complémentaires"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:363
+msgid "Admin Label"
+msgstr "Label Admin"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:369
+msgid "Admin Login Logo"
+msgstr "Logo de connexion de l'administrateur"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:376
+msgid "Any CSS your write here will run in admin."
+msgstr ""
+"Toutes les feuilles de style CSS que vous écrivez ici seront exécutées dans "
+"l'administration."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:242
+msgid "API Key"
+msgstr "Clé API"
+
+#: woocommerce/cart/cart.php:141 woocommerce/checkout/form-coupon.php:32
+#: woocommerce/checkout/form-coupon.php:32
+msgid "Apply coupon"
+msgstr "Appliquer le coupon"
+
+#: woocommerce/wishlist-view.php:90
+msgid "Arrange"
+msgstr "Organiser"
+
+#: inc/woo-hooks/taxseco-woo-hooks-functions.php:416
+#: inc/woo-hooks/taxseco-woo-hooks-functions.php:429
+msgid "Availability:"
+msgstr "Disponibilité :"
+
+#: woocommerce/cart/cart.php:66
+msgid "Available on backorder"
+msgstr "Disponible en rupture de stock"
+
+#: woocommerce/single-product-reviews.php:99
+#: woocommerce/single-product-reviews.php:110
+msgid "Average"
+msgstr "Moyenne"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:366
+msgid "award"
+msgstr "prix"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:250
+msgid "Back To Top"
+msgstr "Haut de page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:257
+msgid "Back To Top Button"
+msgstr "Bouton de retour en haut de page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:284
+msgid "Back To Top Button Background Color"
+msgstr "Couleur d'arrière-plan du bouton Back To Top"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:316
+msgid "Back To Top Button Border Color"
+msgstr "Couleur de la bordure des boutons de retour en haut de page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:292
+msgid "Back To Top Button Hover Background Color"
+msgstr "Couleur d'arrière-plan du bouton de retour en haut de page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:324
+msgid "Back To Top Button Hover Border Color"
+msgstr "Couleur de la bordure du bouton de retour en haut de page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:308
+msgid "Back To Top Hover Icon Color"
+msgstr "Couleur de l'icône de retour en haut de page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:300
+msgid "Back To Top Icon Color"
+msgstr "Retour en haut de la page Couleur de l'icône"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1022
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1375
+msgid "Background"
+msgstr "Contexte"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:381
+msgid "basket"
+msgstr "panier"
+
+#: woocommerce/single-product-reviews.php:68
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "Soyez le premier à commenter &ldquo;%s&rdquo ;"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:738
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1202
+msgid "Below Thumbnail"
+msgstr "Vignette ci-dessous"
+
+#: woocommerce/checkout/form-billing.php:24
+msgid "Billing &amp; Shipping"
+msgstr "Facturation et expédition"
+
+#: woocommerce/myaccount/my-address.php:26
+#: woocommerce/myaccount/my-address.php:35
+#: woocommerce/myaccount/form-edit-address.php:20
+#: woocommerce/order/order-details-customer.php:29
+msgid "Billing address"
+msgstr "Adresse de facturation"
+
+#: woocommerce/checkout/form-billing.php:28
+msgid "Billing details"
+msgstr "Données de facturation"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:771
+msgid "Biography Info"
+msgstr "Biographie"
+
+#: templates/header-menu-bottom.php:162 templates/header-menu-bottom.php:171
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:564
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:637
+msgid "Blog Custom Title"
+msgstr "Titre personnalisé du blog"
+
+#: templates/header-menu-bottom.php:216
+msgid "Blog Details"
+msgstr "Détails du blog"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:746
+msgid "Blog Details Custom Title"
+msgstr "Détails du blog Titre personnalisé"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:619
+msgid "Blog Page Title"
+msgstr "Titre de la page du blog"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:625
+msgid "Blog Page Title Setting"
+msgstr "Paramétrage du titre de la page du blog"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:691
+msgid "Blog Pagination Active Color"
+msgstr "Couleur active de la pagination du blog"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:684
+msgid "Blog Pagination Color"
+msgstr "Couleur de la pagination du blog"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:698
+msgid "Blog Pagination Hover Color"
+msgstr "Couleur du survol de la pagination du blog"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:789
+msgid "Blog Post nav Middle Icon Link"
+msgstr "Blog Post nav Middle Icon Link"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:740
+msgid "Blog Post Title Position"
+msgstr "Titre de l'article de blog Position"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:644
+msgid "Blog Posts Excerpt"
+msgstr "Articles de blog Extrait"
+
+#: inc/taxseco-widgets-reg.php:26
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:989
+msgid "Blog Sidebar"
+msgstr "Barre latérale du blog"
+
+#: inc/redux-custom-field/extensions/box_shadow/box_shadow/field_box_shadow.php:285
+msgid "Blur"
+msgstr "Flou"
+
+#: inc/redux-custom-field/extensions/box_shadow/box_shadow/field_box_shadow.php:283
+msgid "Blur Radius"
+msgstr "Rayon de flou"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:123
+msgid "Breadcrumb"
+msgstr "Fil d'Ariane"
+
+#: inc/woo-hooks/taxseco-woo-hooks-functions.php:30
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr "Accueil"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1054
+msgid "Breadcrumb Active Color"
+msgstr "Couleur active du fil d'Ariane"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1046
+msgid "Breadcrumb Color"
+msgstr "Couleur du fil d'Ariane"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1063
+msgid "Breadcrumb Divider Color"
+msgstr "Couleur du fil d'Ariane"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1037
+msgid "Breadcrumb Hide/Show"
+msgstr "Fil d'Ariane Cacher/Afficher"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:370
+msgid "bubbles"
+msgstr "bulles"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:383
+msgid "building"
+msgstr "bâtiment"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1410
+msgid "Button Text"
+msgstr "Texte du bouton"
+
+#: woocommerce/cart/shipping-calculator.php:24
+msgid "Calculate shipping"
+msgstr "Calculer les frais de port"
+
+#: inc/hooks/hooks-functions.php:38 inc/hooks/hooks-functions.php:51
+msgid "Cancel Preloader"
+msgstr "Annuler le préchargeur"
+
+#: woocommerce/cart/cart-totals.php:26
+msgid "Cart Totals"
+msgstr "Totaux du panier"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:840
+msgid "Category"
+msgstr "Catégorie"
+
+#: inc/woo-hooks/taxseco-woo-hooks-functions.php:453
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "Catégorie :"
+msgstr[1] "Catégories :"
+
+#: woocommerce/cart/cart-shipping.php:76
+msgid "Change address"
+msgstr "Changement d'adresse"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:71
+msgid "check to display page breadcrumb area."
+msgstr "cocher pour afficher la zone du fil d'Ariane de la page."
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:95
+msgid "check to display Page Title."
+msgstr "cocher pour afficher le titre de la page."
+
+#: inc/woo-hooks/taxseco-woo-hooks-functions.php:526
+msgid "Checkout"
+msgstr "Sortie de caisse"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:371
+msgid "chemical-reaction"
+msgstr "réaction chimique"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:573
+msgid ""
+"Choose blog layout from here. If you use this option then you will able to "
+"change three type of blog layout ( Default Left Sidebar Layour ). "
+msgstr ""
+"Choisissez la mise en page du blog à partir d'ici. Si vous utilisez cette "
+"option, vous pourrez changer trois types de mise en page du blog ( Default "
+"Left Sidebar Layour )."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:714
+msgid ""
+"Choose blog single page layout from here. If you use this option then you "
+"will able to change three type of blog single page layout ( Default Left "
+"Sidebar Layour ). "
+msgstr ""
+"Choisissez ici la mise en page unique du blog. Si vous utilisez cette option,"
+" vous pourrez modifier trois types de mise en page unique ( Default Left "
+"Sidebar Layour )."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1064
+msgid "Choose breadcrumb divider color."
+msgstr "Choisissez la couleur de la ligne de séparation du fil d'Ariane."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1030
+msgid ""
+"Choose overlay background color. If you user this option then you will able "
+"to choose overlay background color."
+msgstr ""
+"Choisir la couleur d'arrière-plan de l'incrustation. Si vous utilisez cette "
+"option, vous pourrez choisir la couleur d'arrière-plan de l'incrustation."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1055
+msgid ""
+"Choose page header breadcrumb text active color here.If you user this option "
+"then you will able to set page breadcrumb active color."
+msgstr ""
+"Choisissez ici la couleur active du texte du fil d'Ariane de l'en-tête de la "
+"page. Si vous utilisez cette option, vous pourrez définir la couleur active "
+"du fil d'Ariane de la page."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1047
+msgid ""
+"Choose page header breadcrumb text color here.If you user this option then "
+"you will able to set page breadcrumb color."
+msgstr ""
+"Choisissez ici la couleur du texte du fil d'Ariane de l'en-tête de la page. "
+"Si vous utilisez cette option, vous pourrez définir la couleur du fil "
+"d'Ariane de la page."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1177
+msgid "Choose product single page sidebar."
+msgstr "Choisissez la barre latérale de la page unique du produit."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1111
+msgid "Choose shop page sidebar"
+msgstr "Choisir la barre latérale de la page de la boutique"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:962
+msgid ""
+"Choose your page layout. If you use this option then you will able to choose "
+"three type of page layout ( Default no sidebar ). "
+msgstr ""
+"Choisissez votre mise en page. Si vous utilisez cette option, vous pourrez "
+"choisir trois types de mise en page (par défaut, pas de barre latérale)."
+
+#: woocommerce/cart/shipping-calculator.php:76
+msgid "City"
+msgstr "Ville"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:356
+msgid "cleaning"
+msgstr "nettoyage"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:376
+msgid "cleaning-1"
+msgstr "nettoyage-1"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:377
+msgid "cleaning-2"
+msgstr "nettoyage-2"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:392
+msgid "cleaning-3"
+msgstr "nettoyage-3"
+
+#. Name of the theme
+msgid "Taxseco"
+msgstr "Taxseco"
+
+#: inc/taxseco-framework/plugins-activation/taxseco-active-plugins.php:39
+msgid "Taxseco Core"
+msgstr "Taxseco Core"
+
+#: inc/demo-data/demo-import.php:20
+msgid "Taxseco Demo"
+msgstr "Démonstration de Taxseco"
+
+#: inc/demo-data/demo-import.php:71
+msgid "Taxseco Demo Import"
+msgstr "Taxseco Demo Import"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1518
+msgid "taxseco Footer"
+msgstr "taxseco Pied de page"
+
+#. Description of the theme
+msgid "Taxseco is a Best Spa Beauty Salon WordPress Theme"
+msgstr "Taxseco est un thème WordPress de salon de beauté et de spa"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:85
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:86
+msgid "Taxseco Options"
+msgstr "Options Taxseco"
+
+#: inc/hooks/hooks-functions.php:296
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1603
+msgid "taxseco."
+msgstr "taxseco."
+
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Click here to enter your code"
+msgstr "Cliquez ici pour saisir votre code"
+
+#: inc/taxseco-framework/plugins-activation/taxseco-active-plugins.php:81
+msgid "CMB2"
+msgstr "CMB2"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:831
+msgid "Comment Count"
+msgstr "Nombre de commentaires"
+
+#: inc/hooks/hooks-functions.php:474
+msgid "Comments are closed"
+msgstr "Les commentaires sont fermés"
+
+#: comments.php:25
+#, php-format
+msgctxt "comments title"
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 Commentaire"
+msgstr[1] "%1$s Commentaires"
+
+#: inc/woo-hooks/taxseco-woo-hooks.php:146
+#: inc/woo-hooks/taxseco-woo-hooks.php:197
+#: inc/woo-hooks/taxseco-woo-hooks.php:270
+#: inc/woo-hooks/taxseco-woo-hooks.php:339
+msgid "Company name (optional)"
+msgstr "Nom de l'entreprise (facultatif)"
+
+#: inc/taxseco-framework/plugins-activation/taxseco-active-plugins.php:87
+msgid "Contact Form 7"
+msgstr "Formulaire de contact 7"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:255
+msgid "Contact Information"
+msgstr "Informations sur le contact"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:144
+msgid "Container"
+msgstr "Conteneur"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:145
+msgid "Container Fluid"
+msgstr "Conteneur Fluide"
+
+#: woocommerce/cart/cart.php:148
+msgid "Continue Shopping"
+msgstr "Poursuivre les achats"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:772
+msgid ""
+"Control biography info from here. If you use this option then you will able "
+"to show or hide biography info ( Default setting Show )."
+msgstr ""
+"Contrôlez les informations relatives à la biographie à partir d'ici. Si vous "
+"utilisez cette option, vous pourrez afficher ou masquer les informations "
+"relatives à la biographie (paramètre par défaut : Afficher)."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:626
+msgid ""
+"Control blog page title setting. If you use this option then you can able to "
+"show default or custom blog page title ( Default Blog )."
+msgstr ""
+"Contrôler le titre de la page du blog. Si vous utilisez cette option, vous "
+"pouvez afficher le titre de la page du blog par défaut ou personnalisé ( "
+"Default Blog )."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:620
+msgid ""
+"Control blog page title show / hide. If you use this option then you will "
+"able to show / hide your blog page title ( Default Setting Show )."
+msgstr ""
+"Contrôler l'affichage / le masquage du titre de la page du blog. Si vous "
+"utilisez cette option, vous pourrez afficher / masquer le titre de votre "
+"page de blog (paramètre par défaut Afficher)."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:660
+msgid ""
+"Control blog post show / hide. If you use this option then you will able to "
+"show / hide your blog Author ( Default Setting Show )."
+msgstr ""
+"Contrôler l'affichage / le masquage des articles de blog. Si vous utilisez "
+"cette option, vous pourrez afficher / masquer l'auteur de votre blog "
+"(paramètre par défaut Afficher)."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:741
+msgid "Control blog post title position from here."
+msgstr "Contrôlez la position du titre de l'article de blog à partir d'ici."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:781
+msgid ""
+"Control post navigation from here. If you use this option then you will able "
+"to show or hide post navigation ( Default setting Show )."
+msgstr ""
+"Contrôlez la navigation des messages à partir d'ici. Si vous utilisez cette "
+"option, vous pourrez afficher ou masquer la navigation dans les messages "
+"(paramètre par défaut Afficher)."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:763
+msgid ""
+"Control post share options from here. If you use this option then you will "
+"able to show or hide post share options."
+msgstr ""
+"Contrôlez les options de partage des messages à partir d'ici. Si vous "
+"utilisez cette option, vous pourrez afficher ou masquer les options de "
+"partage des messages."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1205
+msgid "Control product details title position from here."
+msgstr ""
+"Contrôlez les détails du produit, le titre et la position à partir d'ici."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:666
+msgid "Control read more text from here."
+msgstr "Contrôlez la lecture du texte ici."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:797
+msgid ""
+"Control related post from here. If you use this option then you will able to "
+"show or hide related post ( Default setting Show )."
+msgstr ""
+"Contrôlez les messages liés à partir d'ici. Si vous utilisez cette option, "
+"vous pourrez afficher ou masquer les messages liés (paramètre par défaut "
+"Afficher)."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:645
+msgid ""
+"Control the number of characters you want to show in the blog page for each "
+"post.. If you use this option then you can able to control your blog post "
+"characters from here ( Default show 10 )."
+msgstr ""
+"Contrôlez le nombre de caractères que vous souhaitez afficher sur la page du "
+"blog pour chaque article. Si vous utilisez cette option, vous pouvez "
+"contrôler le nombre de caractères de vos articles de blog à partir d'ici (le "
+"nombre de caractères par défaut est de 10)."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1601
+msgid "Copyright Text"
+msgstr "Texte sur le droit d'auteur"
+
+#: woocommerce/checkout/form-coupon.php:31
+msgid "Coupon code"
+msgstr "Code promo"
+
+#: woocommerce/checkout/form-billing.php:54
+msgid "Create an account?"
+msgstr "Créer un compte ?"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1334
+msgid "Cross sell Product Column"
+msgstr "Vente croisée Colonne de produits"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1316
+msgid "Cross sell product Hide/Show"
+msgstr "Vente croisée de produits Cacher/Afficher"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1325
+msgid "Cross sell products number"
+msgstr "Vente croisée de produits nombre"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1646
+msgid "CSS Code"
+msgstr "Code CSS"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:394
+msgid "cupboard"
+msgstr "armoire"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:629
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:669
+msgid "Custom"
+msgstr "Sur mesure"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:266
+msgid "Custom Back To Top Button"
+msgstr "Bouton de retour en haut de page personnalisé"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:276
+msgid "Custom Back To Top Button Icon"
+msgstr "Icône de bouton de retour en haut de page personnalisée"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1639
+msgid "Custom Css"
+msgstr "Css personnalisé"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:375
+msgid "Custom CSS For admin"
+msgstr "CSS personnalisé pour l'administrateur"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:117
+msgid "Custom Page Title"
+msgstr "Titre de page personnalisé"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:111
+msgid "Custom Title"
+msgstr "Titre personnalisé"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:628
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:668
+msgid "Default"
+msgstr "Défaut"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:110
+msgid "Default Title"
+msgstr "Titre par défaut"
+
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:221
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:314
+msgid "Delete"
+msgstr "Supprimer"
+
+#: inc/demo-data/demo-import.php:16
+msgid "Demo Preview Imgae"
+msgstr "Imgae de prévisualisation de la démo"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:209
+msgid "Department"
+msgstr "Département"
+
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:203
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:298
+msgid "Description"
+msgstr "Description"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1443
+msgid "Description Color"
+msgstr "Description Couleur"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1403
+msgid "Description Text"
+msgstr "Texte de description"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:217
+msgid "Designation"
+msgstr "Désignation"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:368
+msgid "diamond"
+msgstr "diamant"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1547
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1557
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1588
+msgid "Disable"
+msgstr "Désactiver"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:261
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:270
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:344
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:757
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:817
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:826
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:835
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:844
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1001
+msgid "Disabled"
+msgstr "Handicapés"
+
+#: woocommerce/myaccount/form-edit-account.php:34
+msgid "Display Name"
+msgstr "Nom d'affichage"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1661
+msgid "Documentation"
+msgstr "Documentation"
+
+#: woocommerce/myaccount/my-address.php:84
+msgid "Edit"
+msgstr "Editer"
+
+#: inc/taxseco-functions.php:244
+msgid "edit"
+msgstr "éditer"
+
+#: inc/taxseco-framework/plugins-activation/taxseco-active-plugins.php:60
+msgid "Elementor"
+msgstr "Elementor"
+
+#: woocommerce/myaccount/form-login.php:99
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:261
+msgid "Email"
+msgstr "Courriel"
+
+#: inc/woo-hooks/taxseco-woo-hooks.php:156
+#: inc/woo-hooks/taxseco-woo-hooks.php:207
+#: inc/woo-hooks/taxseco-woo-hooks.php:282
+#: inc/woo-hooks/taxseco-woo-hooks.php:351
+msgid "Email address"
+msgstr "Adresse électronique"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:260
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:269
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:343
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:756
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:816
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:825
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:834
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:843
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1000
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1546
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1556
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1587
+msgid "Enabled"
+msgstr "Activé"
+
+#: woocommerce/cart/cart-shipping.php:91
+msgid "Enter a different address"
+msgstr "Saisir une autre adresse"
+
+#: woocommerce/cart/cart.php:140
+msgid "Enter Coupon Code"
+msgstr "Saisir le code de coupon"
+
+#: woocommerce/cart/cart-shipping.php:85
+msgid "Enter your address to view shipping options."
+msgstr "Saisissez votre adresse pour voir les options d'expédition."
+
+#: comments.php:63
+msgid "Enter Your Name *"
+msgstr "Entrez votre nom *"
+
+#: inc/taxseco-breadcrumbs.php:130
+msgid "Error 404"
+msgstr "Erreur 404"
+
+#: 404.php:24
+msgid "Error Page"
+msgstr "Page d'erreur"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1384
+msgid "Error page"
+msgstr "Page d'erreur"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:241
+msgid "Extra Thumbnail"
+msgstr "Vignette supplémentaire"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:274
+msgid "Facebook URL"
+msgstr "URL Facebook"
+
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:199
+msgid "Facts Number"
+msgstr "Faits Numéro"
+
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:294
+msgid "Facts number"
+msgstr "Faits numéro"
+
+#: woocommerce/myaccount/form-edit-account.php:27
+#: inc/woo-hooks/taxseco-woo-hooks.php:136
+#: inc/woo-hooks/taxseco-woo-hooks.php:187
+#: inc/woo-hooks/taxseco-woo-hooks.php:258
+#: inc/woo-hooks/taxseco-woo-hooks.php:327
+msgid "First Name"
+msgstr "Prénom"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:173
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:342
+msgid "Flat Icon"
+msgstr "Icône plate"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1516
+msgid "Footer"
+msgstr "Pied de page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1563
+msgid "Footer Background"
+msgstr "Fond de page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1594
+msgid "Footer Bottom Background Color"
+msgstr "Couleur d'arrière-plan du bas de page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1585
+msgid "Footer Bottom?"
+msgstr "Bas de page ?"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1533
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1536
+msgid "Footer Builder"
+msgstr "Constructeur de bas de page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1618
+msgid "Footer Copyright Ancor Color"
+msgstr "Pied de page Copyright Ancor Color"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1626
+msgid "Footer Copyright Ancor Hover Color"
+msgstr "Footer Copyright Ancor Hover Color"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1609
+msgid "Footer Copyright Text Color"
+msgstr "Couleur du texte du copyright du pied de page"
+
+#: inc/taxseco-widgets-reg.php:48
+msgid "Footer One"
+msgstr "Pied de page 1"
+
+#: inc/taxseco-widgets-reg.php:64
+msgid "Footer Three"
+msgstr "Pied de page trois"
+
+#: inc/taxseco-widgets-reg.php:56
+msgid "Footer Two"
+msgstr "Pied de page deux"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1554
+msgid "Footer Widget"
+msgstr "Widget de bas de page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1578
+msgid "Footer Widget Text Color"
+msgstr "Couleur du texte du widget de pied de page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1571
+msgid "Footer Widget Title Color"
+msgstr "Couleur du titre du widget de pied de page"
+
+#: woocommerce/myaccount/form-login.php:73
+msgid "Forgot Your Password?"
+msgstr "Vous avez oublié votre mot de passe ?"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:369
+msgid "four-stars"
+msgstr "quatre étoiles"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:146
+msgid "Fullwidth"
+msgstr "Largeur complète"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1072
+msgid "Gallery"
+msgstr "Galerie"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:203
+msgid "Genaral Information"
+msgstr "Informations générales"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:228
+msgid "General"
+msgstr "Général"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:380
+msgid "glass-cleaner"
+msgstr "nettoyeur de verre"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:88
+msgid "Global Settings"
+msgstr "Paramètres globaux"
+
+#: 404.php:27
+msgid "Go Back Home"
+msgstr "Retour à l'accueil"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1412
+msgid "Go Back To Home"
+msgstr "Retour à l'accueil"
+
+#: woocommerce/single-product-reviews.php:98
+#: woocommerce/single-product-reviews.php:109
+msgid "Good"
+msgstr "Bon"
+
+#: inc/taxseco-framework/plugins-activation/taxseco-active-plugins.php:74
+msgid "Goolge Translate"
+msgstr "Goolge Translate"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:388
+msgid "group"
+msgstr "groupe"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:389
+msgid "group-1"
+msgstr "groupe-1"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:892
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1007
+msgid "H1"
+msgstr "H1"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:893
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1008
+msgid "H2"
+msgstr "H2"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:894
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1009
+msgid "H3"
+msgstr "H3"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:895
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1010
+msgid "H4"
+msgstr "H4"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:896
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1011
+msgid "H5"
+msgstr "H5"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:897
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1012
+msgid "H6"
+msgstr "H6"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:358
+msgid "hand-washing"
+msgstr "lavage des mains"
+
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Have a coupon?"
+msgstr "Vous avez un coupon ?"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:388
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:411
+msgid "Header"
+msgstr "En-tête"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:399
+msgid "Header Builder"
+msgstr "Constructeur d'en-tête"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:419
+msgid "Header Logo"
+msgstr "Logo de l'en-tête"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:467
+msgid "Header Menu"
+msgstr "Menu d'en-tête"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:401
+msgid "Header Options"
+msgstr "Options d'en-tête"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:618
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:658
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:765
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:774
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:783
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:799
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1228
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1274
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1320
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:77
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:101
+msgid "Hide"
+msgstr "Cacher"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1038
+msgid ""
+"Hide / Show breadcrumb from all pages and posts ( Default settings hide )."
+msgstr ""
+"Masquer / Afficher le fil d'Ariane de toutes les pages et de tous les "
+"articles (par défaut, il est masqué)."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1317
+msgid "Hide / Show cross sell product in single page (Default Settings Show)"
+msgstr ""
+"Masquer / Afficher les produits de vente croisée sur une seule page "
+"(Paramètres par défaut : Afficher)"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1225
+msgid "Hide / Show related product in single page (Default Settings Show)"
+msgstr ""
+"Masquer / Afficher les produits apparentés sur une seule page (Paramètres "
+"par défaut : Afficher)"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1271
+msgid "Hide / Show upsell product in single page (Default Settings Show)"
+msgstr ""
+"Masquer / Afficher le produit de vente incitative sur une seule page "
+"(Paramètres par défaut : Afficher)"
+
+#: inc/taxseco-breadcrumbs.php:43
+msgid "Home"
+msgstr "Accueil"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:382
+msgid "hotel"
+msgstr "hôtel"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:375
+msgid "house"
+msgstr "maison"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:385
+msgid "house-1"
+msgstr "maison-1"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:226
+msgid "How many years you are doing ths kind of job"
+msgstr "Depuis combien d'années exercez-vous ce type d'emploi ?"
+
+#. Author URI of the theme
+msgid "http://angfuzsoft.com/"
+msgstr "http://angfuzsoft.com/"
+
+#. URI of the theme
+msgid "http://angfuzsoft.com/products/wordpress/taxseco/"
+msgstr "http://angfuzsoft.com/products/wordpress/taxseco/"
+
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:186
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:282
+msgid "Icon"
+msgstr "Icône"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1505
+msgid "Icon (example: fa fa-facebook) "
+msgstr "Icône (exemple : fa fa-facebook)"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:267
+msgid ""
+"If you select \"Disabled\", it will show default design for \"back to top\" "
+"button."
+msgstr ""
+"Si vous sélectionnez \"Désactivé\", la conception par défaut du bouton "
+"\"retour en haut de page\" s'affichera."
+
+#: woocommerce/cart/cart.php:28
+msgid "Image"
+msgstr "Image"
+
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:127
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:234
+msgid "image"
+msgstr "image"
+
+#: inc/demo-data/demo-import.php:72
+msgid "Import Demo Data"
+msgstr "Importer des données de démonstration"
+
+#: woocommerce/wishlist-view.php:146
+#: inc/woo-hooks/taxseco-woo-hooks-functions.php:420
+msgid "In Stock"
+msgstr "En stock"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:298
+msgid "Instagram URL"
+msgstr "URL Instagram"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:370
+msgid "It belongs to the back-end of your website to log-in to admin panel."
+msgstr ""
+"Il appartient au back-end de votre site web et permet de se connecter au "
+"panneau d'administration."
+
+#: templates/content-none.php:34
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Il semble que nous ne puissions pas trouver ce que vous cherchez. La "
+"recherche peut peut-être vous aider."
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:395
+msgid "kitchen"
+msgstr "cuisine"
+
+#: woocommerce/myaccount/form-edit-account.php:30
+#: inc/woo-hooks/taxseco-woo-hooks.php:141
+#: inc/woo-hooks/taxseco-woo-hooks.php:192
+#: inc/woo-hooks/taxseco-woo-hooks.php:264
+#: inc/woo-hooks/taxseco-woo-hooks.php:333
+msgid "Last Name"
+msgstr "Nom de famille"
+
+#: inc/taxseco-framework/plugins-activation/taxseco-active-plugins.php:47
+msgid "LayerSlider WP"
+msgstr "LayerSlider WP"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:572
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:713
+msgid "Layout"
+msgstr "Mise en page"
+
+#: comments.php:78
+msgid "Leave A Comment"
+msgstr "Laisser un commentaire"
+
+#. %s is product title
+#: woocommerce/single-product-reviews.php:70
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Laisser une réponse à %s"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:290
+msgid "Linkedin URL"
+msgstr "URL de Linkedin"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:363
+msgid "liquid-soap"
+msgstr "savon liquide"
+
+#: woocommerce/myaccount/form-login.php:31
+msgid "Log In"
+msgstr "Se connecter"
+
+#: woocommerce/myaccount/form-login.php:70
+msgid "Log in"
+msgstr "Se connecter"
+
+#: comments.php:82
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Connecté en tant que <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Se "
+"déconnecter de ce compte\">Se déconnecter?</a>"
+
+#: woocommerce/myaccount/form-login.php:70 woocommerce/global/form-login.php:40
+#: woocommerce/global/form-login.php:40
+msgid "Login"
+msgstr "Connexion"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:427
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/taxseco-functions.php:60
+msgid "logo"
+msgstr "logo"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:435
+msgid "Logo Dimensions (Width/Height)."
+msgstr "Dimensions du logo (largeur/hauteur)."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:446
+msgid "Logo Top and Bottom Margin."
+msgstr "Logo Marge supérieure et inférieure."
+
+#: woocommerce/global/form-login.php:53
+msgid "Lost your password?"
+msgstr "Vous avez perdu votre mot de passe ?"
+
+#: woocommerce/myaccount/form-lost-password.php:27
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+"Vous avez perdu votre mot de passe ? Veuillez saisir votre nom d'utilisateur "
+"ou votre adresse électronique. Vous recevrez un lien pour créer un nouveau "
+"mot de passe par courrier électronique."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1462
+msgid "Mailchimp API Key"
+msgstr "Clé API Mailchimp"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1468
+msgid "Mailchimp List ID"
+msgstr "ID de la liste Mailchimp"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:181
+msgid "Mention here the charge for this service "
+msgstr "Mentionnez ici le coût de ce service"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:474
+msgid "Menu Color"
+msgstr "Couleur du menu"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:481
+msgid "Menu Hover Color"
+msgstr "Couleur de survol du menu"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:806
+msgid "Meta Data"
+msgstr "Métadonnées"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:361
+msgid "mission"
+msgstr "mission"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:357
+msgid "mop"
+msgstr "vadrouille"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:359
+msgid "mountain"
+msgstr "montagne"
+
+#: woocommerce/wishlist-view.php:195
+msgid "Move"
+msgstr "Déplacer"
+
+#: woocommerce/wishlist-view.php:214
+msgid "Move to another list &rsaquo;"
+msgstr "Passer à une autre liste &rsaquo ;"
+
+#: woocommerce/order/order-details-customer.php:31
+#: woocommerce/order/order-details-customer.php:48
+msgid "N/A"
+msgstr "N/A"
+
+#: woocommerce/cart/cart.php:70
+msgid "Name"
+msgstr "Nom"
+
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:77
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:228
+#, php-format
+msgid "New %s"
+msgstr "Nouveau %s"
+
+#: inc/hooks/hooks-functions.php:532
+msgid "Next Post"
+msgstr "Article suivant"
+
+#: woocommerce/wishlist-view.php:242
+msgid "No products added to the wishlist"
+msgstr "Aucun produit n'a été ajouté à la liste de souhaits"
+
+#. $s shipping destination.
+#: woocommerce/cart/cart-shipping.php:90
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr "Aucune option de livraison n'a été trouvée pour %s."
+
+#: woocommerce/single-product-reviews.php:100
+#: woocommerce/single-product-reviews.php:111
+msgid "Not that bad"
+msgstr "Pas si mal"
+
+#: templates/content-none.php:17
+msgid "Nothing Found"
+msgstr "Rien n'a été trouvé"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:547
+msgid "Offcanvas Ancor Color"
+msgstr "Offcanvas Ancor Color"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:554
+msgid "Offcanvas Ancor Hover Color"
+msgstr "Offcanvas Ancor Hover Color"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:519
+msgid "Offcanvas Menu"
+msgstr "Menu hors toile"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:526
+msgid "Offcanvas Panel Background"
+msgstr "Arrière-plan du panneau hors toile"
+
+#: inc/taxseco-widgets-reg.php:72
+msgid "Offcanvas Sidebar"
+msgstr "Barre latérale hors toile"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:540
+msgid "Offcanvas Text Color"
+msgstr "Couleur du texte hors-canevas"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:533
+msgid "Offcanvas Title Color"
+msgstr "Couleur du titre hors toile"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:367
+msgid "offer"
+msgstr "offrir"
+
+#: inc/redux-custom-field/extensions/box_shadow/box_shadow/field_box_shadow.php:243
+msgid "Offset X"
+msgstr "Décalage X"
+
+#: inc/redux-custom-field/extensions/box_shadow/box_shadow/field_box_shadow.php:263
+msgid "Offset Y"
+msgstr "Décalage Y"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:737
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1201
+msgid "On Header"
+msgstr "Sur l'en-tête"
+
+#: inc/taxseco-framework/plugins-activation/taxseco-active-plugins.php:55
+msgid "One Click Demo Importer"
+msgstr "Importateur de démos en un clic"
+
+#: woocommerce/single-product-reviews.php:124
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+"Seuls les clients connectés qui ont acheté ce produit peuvent laisser un "
+"commentaire."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1398
+msgid "Oops!"
+msgstr "Oups !"
+
+#: inc/redux-custom-field/extensions/box_shadow/box_shadow/field_box_shadow.php:326
+msgid "Opacity"
+msgstr "Opacité"
+
+#: inc/redux-custom-field/extensions/box_shadow/box_shadow/field_box_shadow.php:324
+msgid "Opacity .1 - 1"
+msgstr "Opacité .1 - 1"
+
+#: woocommerce/cart/cart-totals.php:99
+msgid "Order Total"
+msgstr "Commande Total"
+
+#: inc/woo-hooks/taxseco-woo-hooks-functions.php:430
+msgid "Out Of Stock"
+msgstr "En rupture de stock"
+
+#: woocommerce/wishlist-view.php:144
+msgid "Out of Stock"
+msgstr "En rupture de stock"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1029
+msgid "Overlay Background"
+msgstr "Arrière-plan de la superposition"
+
+#: inc/taxseco-functions.php:124
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:954
+msgid "Page"
+msgstr "Page"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:70
+msgid "Page Breadcrumb Area"
+msgstr "Zone de fil d'Ariane de la page"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:83
+msgid "Page Breadcrumb Settings"
+msgstr "Paramètres du fil d'Ariane"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:132
+msgid "Page Layout"
+msgstr "Mise en page"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:64
+msgid "Page Meta"
+msgstr "Page Meta"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:89
+msgid "Page Settings"
+msgstr "Paramètres de la page"
+
+#: inc/taxseco-widgets-reg.php:37
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:988
+msgid "Page Sidebar"
+msgstr "Barre latérale de la page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1396
+msgid "Page Subtitle"
+msgstr "Sous-titre de la page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1382
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1389
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:94
+msgid "Page Title"
+msgstr "Titre de la page"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:106
+msgid "Page Title Settings"
+msgstr "Paramètres du titre de la page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1405
+msgid "Pages Not Found"
+msgstr "Pages non trouvées"
+
+#: inc/taxseco-functions.php:120
+msgid "Pages:"
+msgstr "Pages :"
+
+#: woocommerce/myaccount/form-login.php:55
+#: woocommerce/myaccount/form-login.php:103
+#: woocommerce/global/form-login.php:33
+msgid "Password"
+msgstr "Mot de passe"
+
+#: woocommerce/myaccount/form-edit-account.php:42
+msgid "Password Change"
+msgstr "Changement de mot de passe"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1647
+msgid "Paste your CSS code here."
+msgstr "Collez votre code CSS ici."
+
+#: woocommerce/single-product-reviews.php:97
+#: woocommerce/single-product-reviews.php:108
+msgid "Perfect"
+msgstr "Parfait"
+
+#: inc/woo-hooks/taxseco-woo-hooks.php:151
+#: inc/woo-hooks/taxseco-woo-hooks.php:202
+#: inc/woo-hooks/taxseco-woo-hooks.php:276
+#: inc/woo-hooks/taxseco-woo-hooks.php:345
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:267
+msgid "Phone"
+msgstr "Téléphone"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1444
+msgid "Pick a Description Color"
+msgstr "Choisir une couleur de description"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1420
+msgid "Pick a heading color"
+msgstr "Choisir une couleur d'en-tête"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1436
+msgid "Pick a subtitle color"
+msgstr "Choisir une couleur de sous-titre"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1428
+msgid "Pick a title color"
+msgstr "Choisir une couleur de titre"
+
+#: woocommerce/checkout/payment.php:33
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+"Veuillez indiquer vos coordonnées ci-dessus pour connaître les modes de "
+"paiement disponibles."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:659
+msgid "Post Author?"
+msgstr "Auteur de la publication ?"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:594
+msgid "Post Column"
+msgstr "Chronique postale"
+
+#: comments.php:55 comments.php:85
+msgid "Post Comment"
+msgstr "Poster un commentaire"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:813
+msgid "Post Date"
+msgstr "Date d'envoi"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:50
+msgid "Post Format Audio"
+msgstr "Post Format Audio"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:44
+msgid "Post Format Video"
+msgstr "Format du message Vidéo"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:780
+msgid "Post Navigation"
+msgstr "Navigation postale"
+
+#: woocommerce/single-product-reviews.php:76
+msgid "Post Review"
+msgstr "Revue de presse"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:39
+msgid "Post Thumb Controller"
+msgstr "Contrôleur de Post Thumb"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:56
+msgid "Post Thumbnail For Slider"
+msgstr ""
+"Post Thumbnail For Slider (Vignette de l'article pour la barre de défilement)"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:822
+msgid "Post Views"
+msgstr "Post Views"
+
+#: inc/woo-hooks/taxseco-woo-hooks.php:182
+#: inc/woo-hooks/taxseco-woo-hooks.php:233
+#: inc/woo-hooks/taxseco-woo-hooks.php:313
+#: inc/woo-hooks/taxseco-woo-hooks.php:382
+msgid "Postcode"
+msgstr "Code postal"
+
+#: woocommerce/cart/shipping-calculator.php:82
+msgid "Postcode / ZIP"
+msgstr "Code postal / ZIP"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1534
+msgid "Pre-built Footer"
+msgstr "Pied de page pré-construit"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1524
+msgid "Pre-built Footer / Footer Builder"
+msgstr "Pied de page pré-construit / Footer Builder"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:398
+msgid "Prebuilt"
+msgstr "Pré-construit"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:333
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:340
+msgid "Preloader"
+msgstr "Préchargeur"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:350
+msgid "Preloader Image"
+msgstr "Image de préchargement"
+
+#: inc/hooks/hooks-functions.php:521
+msgid "Prev Post"
+msgstr "Prev Post"
+
+#: woocommerce/cart/cart.php:79
+msgid "Price"
+msgstr "Prix"
+
+#: woocommerce/wishlist-view.php:74 woocommerce/cart/cart.php:30
+msgid "Price/Unit"
+msgstr "Prix/unité"
+
+#: inc/theme-setup.php:35
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: inc/woo-hooks/taxseco-woo-hooks-functions.php:504
+msgid "Proceed to checkout"
+msgstr "Passer à la caisse"
+
+#: woocommerce/cart/cart.php:49 woocommerce/checkout/review-order.php:23
+msgid "Product"
+msgstr "Produit"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1133
+msgid "Product Column"
+msgstr "Colonne de produits"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1210
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1217
+msgid "Product Details Title"
+msgstr "Détails du produit Titre"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1204
+msgid "Product Details Title Position"
+msgstr "Détails du produit Titre Position"
+
+#: woocommerce/cart/cart.php:29
+msgid "Product Name"
+msgstr "Nom du produit"
+
+#: woocommerce/wishlist-view.php:63
+msgid "Product name"
+msgstr "Nom du produit"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1170
+msgid "Product Per Page"
+msgstr "Produit par page"
+
+#: woocommerce/global/quantity-input.php:43
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "Qté"
+
+#: woocommerce/single-product-reviews.php:30
+msgid "Product Review"
+msgstr "Examen du produit"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1176
+msgid "Product Single Page sidebar"
+msgstr "Barre latérale de la page unique du produit"
+
+#: 404.php:28
+msgid ""
+"Professionally extend world-class manufactured products vis-a-vis cross "
+"platform communities. Compellingly fabricate market positioning."
+msgstr ""
+"Étendre professionnellement des produits de classe mondiale à des "
+"communautés multiplateformes. Fabriquer un positionnement convaincant sur le "
+"marché."
+
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:168
+msgid "Progress"
+msgstr "Progrès"
+
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:263
+msgid "progress"
+msgstr "progrès"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:328
+msgid "Project Custom Metabox"
+msgstr "Métaboxe personnalisée du projet"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:373
+msgid "project-management"
+msgstr "gestion de projet"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:233
+msgid "Qoute Text"
+msgstr "Qoute Text"
+
+#: woocommerce/wishlist-view.php:80 woocommerce/global/quantity-input.php:28
+#: woocommerce/cart/cart.php:31 woocommerce/cart/cart.php:85
+msgid "Quantity"
+msgstr "Quantité"
+
+#: woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php:21
+#: woocommerce/single-product/add-to-cart/simple.php:43
+msgid "Quantity:"
+msgstr "Quantité :"
+
+#: woocommerce/single-product-reviews.php:96
+#: woocommerce/single-product-reviews.php:107
+msgid "Rate&hellip;"
+msgstr "Taux&hellip ;"
+
+#: inc/hooks/hooks-functions.php:768 inc/hooks/hooks-functions.php:771
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:676
+msgid "Read More Text"
+msgstr "Lire plus Texte"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:665
+msgid "Read More Text Setting"
+msgstr "Lire la suite Réglage du texte"
+
+#: templates/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Prêt à publier votre premier article ? <a href=\"%1$s\">Commencez ici</a>."
+
+#: inc/taxseco-framework/plugins-activation/taxseco-active-plugins.php:67
+msgid "Redux Framework"
+msgstr "Cadre Redux"
+
+#: woocommerce/myaccount/form-login.php:35
+#: woocommerce/myaccount/form-login.php:115
+#: woocommerce/myaccount/form-login.php:115
+msgid "Register"
+msgstr "Registre"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:796
+msgid "Related Post"
+msgstr "Poste connexe"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1242
+msgid "Related Product Column"
+msgstr "Colonne des produits apparentés"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1224
+msgid "Related product Hide/Show"
+msgstr "Produit connexe Cacher/Afficher"
+
+#: woocommerce/single-product/related.php:29
+msgid "Related products"
+msgstr "Produits apparentés"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1233
+msgid "Related products number"
+msgstr "Nombre de produits apparentés"
+
+#: woocommerce/myaccount/form-login.php:63 woocommerce/global/form-login.php:46
+msgid "Remember me"
+msgstr "Souvenez-vous de moi"
+
+#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:112
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:146
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:244
+msgid "Remove"
+msgstr "Retirer"
+
+#: woocommerce/cart/cart.php:120
+msgid "Remove this item"
+msgstr "Supprimer cet article"
+
+#: woocommerce/wishlist-view.php:221 woocommerce/wishlist-view.php:224
+msgid "Remove this product"
+msgstr "Supprimer ce produit"
+
+#: inc/taxseco-functions.php:243
+msgid "Reply"
+msgstr "Répondre"
+
+#: woocommerce/myaccount/form-lost-password.php:39
+msgid "Reset password"
+msgstr "Réinitialiser le mot de passe"
+
+#: woocommerce/cart/cart-empty.php:33
+msgid "Return to shop"
+msgstr "Retourner à la boutique"
+
+#: woocommerce/myaccount/form-edit-address.php:46
+msgid "Save address"
+msgstr "Enregistrer l'adresse"
+
+#: woocommerce/myaccount/form-edit-account.php:59
+msgid "Save changes"
+msgstr "Enregistrer les modifications"
+
+#: inc/woo-hooks/taxseco-woo-hooks-functions.php:595
+msgid "Search"
+msgstr "Recherche"
+
+#: inc/woo-hooks/taxseco-woo-hooks-functions.php:594
+msgid "Search for:"
+msgstr "Recherche de :"
+
+#: searchform.php:17
+msgid "Search Here..."
+msgstr "Rechercher ici..."
+
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:189
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:285
+msgid "Search icon..."
+msgstr "Icône de recherche..."
+
+#: templates/header-menu-bottom.php:180
+msgid "Search Result"
+msgstr "Résultat de la recherche"
+
+#: inc/taxseco-breadcrumbs.php:128
+msgid "Search results for: "
+msgstr "Résultats de la recherche pour :"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1754
+msgid "Section via hook"
+msgstr "Section par crochet"
+
+#: woocommerce/cart/shipping-calculator.php:31
+msgid "Select a country / region&hellip"
+msgstr "Sélectionnez un pays / une région&hellip"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:174
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:343
+msgid "Select an icon name form the dropdown menu"
+msgstr "Sélectionnez un nom d'icône dans le menu déroulant"
+
+#: woocommerce/cart/shipping-calculator.php:56
+msgid "Select an option&hellip;"
+msgstr "Sélectionnez une option&hellip ;"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:277
+msgid "Select Back To Top Button icon."
+msgstr "Sélectionnez l'icône du bouton Retour en haut de la page."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1548
+msgid "Select Footer"
+msgstr "Sélectionner le pied de page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:402
+msgid "Select header options."
+msgstr "Sélectionner les options d'en-tête."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:412
+msgid "Select header."
+msgstr "Sélectionner l'en-tête."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:961
+msgid "Select layout"
+msgstr "Sélectionner la mise en page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1016
+msgid ""
+"Select page title tag. If you use this option then you can able to change "
+"title tag H1 - H6 ( Default tag H1 )"
+msgstr ""
+"Sélectionnez la balise de titre de la page. Si vous utilisez cette option, "
+"vous pouvez modifier la balise de titre H1 - H6 (balise par défaut H1)"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:124
+msgid "Select Show to display breadcrumb area"
+msgstr "Sélectionnez Afficher pour afficher la zone du fil d'Ariane"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:595
+msgid ""
+"Select your blog post column from here. If you use this option then you will "
+"able to select three type of blog post layout ( Default Two Column )."
+msgstr ""
+"Sélectionnez ici la colonne de votre article de blog. Si vous utilisez cette "
+"option, vous pourrez sélectionner trois types de mise en page pour les "
+"articles de blog (par défaut, deux colonnes)."
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:180
+msgid "Service Charge"
+msgstr "Frais de service"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:167
+msgid "Service Custom Metabox"
+msgstr "Service Custom Metabox"
+
+#: inc/taxseco-widgets-reg.php:80
+msgid "Service Sidebar"
+msgstr "Barre latérale des services"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:285
+msgid "Set Back to top button Background Color."
+msgstr "Définir la couleur d'arrière-plan du bouton Retour en haut de la page."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:317
+msgid "Set Back to top button border Color."
+msgstr "Définir la couleur de la bordure du bouton Retour en haut de page."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:293
+msgid "Set Back to top button Hover Background Color."
+msgstr ""
+"Définir la couleur d'arrière-plan du bouton Retour au début de la page."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:325
+msgid "Set Back to top button Hover border Color."
+msgstr ""
+"Définir la couleur de la bordure du bouton Retour en haut de page au survol."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:309
+msgid "Set Back to top Hover Icon Color."
+msgstr "Couleur de l'icône de survol."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:301
+msgid "Set Back to top Icon Color."
+msgstr "Set Back to top Couleur de l'icône."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:638
+msgid ""
+"Set blog page custom title form here. If you use this option then you will "
+"able to set your won title text."
+msgstr ""
+"Définissez ici le formulaire de titre personnalisé de la page du blog. Si "
+"vous utilisez cette option, vous pourrez définir le texte de votre titre."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:692
+msgid "Set Blog Pagination Active Color."
+msgstr "Définir la couleur active de la pagination du blog."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:685
+msgid "Set Blog Pagination Color."
+msgstr "Définir la couleur de pagination du blog."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:699
+msgid "Set Blog Pagination Hover Color."
+msgstr "Définir la couleur de survol de la pagination du blog."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:790
+msgid "Set Blog Post nav Middle Icon Link"
+msgstr "Définir le lien de l'icône centrale du Blog Post nav"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1411
+msgid "Set Button Text "
+msgstr "Définir le texte du bouton"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1404
+msgid "Set Description Text"
+msgstr "Texte de description de l'ensemble"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1564
+msgid "Set footer background."
+msgstr "Définir l'arrière-plan du pied de page."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1619
+msgid "Set footer copyright ancor color"
+msgstr "Définir la couleur de l'ancrage du copyright du pied de page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1627
+msgid "Set footer copyright ancor Hover color"
+msgstr "Fixer la couleur de l'ancrage du copyright du pied de page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1610
+msgid "Set footer copyright text color"
+msgstr "Fixer la couleur du texte du copyright du pied de page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1326
+msgid ""
+"Set how many cross sell products you want to show in single product page."
+msgstr ""
+"Définissez le nombre de produits de vente croisée que vous souhaitez "
+"afficher sur la page d'un produit unique."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1234
+msgid "Set how many related products you want to show in single product page."
+msgstr ""
+"Définissez le nombre de produits apparentés que vous souhaitez afficher sur "
+"la page d'un produit unique."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1280
+msgid "Set how many upsells products you want to show in single product page."
+msgstr ""
+"Définissez le nombre de produits complémentaires que vous souhaitez afficher "
+"sur la page d'un produit unique."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:437
+msgid "Set logo dimensions to choose width, height, and unit."
+msgstr ""
+"Définissez les dimensions du logo en choisissant la largeur, la hauteur et "
+"l'unité."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:449
+msgid "Set logo top and bottom margin."
+msgstr "Définir les marges supérieure et inférieure du logo."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1463
+msgid "Set mailchimp api key."
+msgstr "Définir la clé api de mailchimp."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1469
+msgid "Set mailchimp list id."
+msgstr "Définir l'identifiant de la liste mailchimp."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:475
+msgid "Set Menu Color"
+msgstr "Couleur du menu"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:482
+msgid "Set Menu Hover Color"
+msgstr "Définir la couleur de survol du menu"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:548
+msgid "Set Offcanvas Ancor color."
+msgstr "Définir la couleur de l'ancrage hors du canevas."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:555
+msgid "Set Offcanvas Ancor Hover color."
+msgstr "Définir la couleur du survol de l'Ancre hors du canevas."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:528
+msgid "Set Offcanvas Panel Background Color"
+msgstr "Définir la couleur d'arrière-plan du panneau hors-canevas"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:541
+msgid "Set Offcanvas Text color."
+msgstr "Définir la couleur du texte hors du canevas."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:534
+msgid "Set Offcanvas Title color."
+msgstr "Définir la couleur du titre hors du canevas."
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:140
+msgid ""
+"Set page layout container,container fluid,fullwidth or both. It's work only "
+"in template builder page."
+msgstr ""
+"Définir la mise en page conteneur, conteneur fluide, pleine largeur ou les "
+"deux. Cela ne fonctionne que dans la page du constructeur de modèles."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:985
+msgid ""
+"Set page sidebar. If you use this option then you will able to set three "
+"type of sidebar ( Default no sidebar )."
+msgstr ""
+"Définir la barre latérale de la page. Si vous utilisez cette option, vous "
+"pourrez définir trois types de barres latérales (pas de barre latérale par "
+"défaut)."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1397
+msgid "Set Page Subtitle "
+msgstr "Définir le sous-titre de la page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1383
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1390
+msgid "Set Page Title"
+msgstr "Définir le titre de la page"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:677
+msgid ""
+"Set read moer text here. If you use this option then you will able to set "
+"your won text."
+msgstr ""
+"Définissez ici le texte à lire en priorité. Si vous utilisez cette option, "
+"vous pourrez définir votre texte gagnant."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1110
+msgid "Set Shop Page Sidebar."
+msgstr "Définir la barre latérale de la page de la boutique."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:503
+msgid "Set Submenu Background Color"
+msgstr "Définir la couleur d'arrière-plan du sous-menu"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:510
+msgid "Set Submenu Border Top Color"
+msgstr "Définir la couleur supérieure de la bordure du sous-menu"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:489
+msgid "Set Submenu Color"
+msgstr "Définir la couleur du sous-menu"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:496
+msgid "Set Submenu Hover Color"
+msgstr "Définir la couleur de survol du sous-menu"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:237
+msgid "Set Theme Color"
+msgstr "Définir la couleur du thème"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:937
+msgid "Set Widget Anchor Color."
+msgstr "Définir la couleur d'ancrage du widget."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:944
+msgid "Set Widget Anchor Hover Color."
+msgstr "Définir la couleur du survol de l'ancre du widget."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:930
+msgid "Set Widget Text Color."
+msgstr "Définir la couleur du texte du widget."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:923
+msgid "Set Widget Title Color."
+msgstr "Définir la couleur du titre du widget."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:243
+msgid "Set your google map api key"
+msgstr "Définissez votre clé d'api google map"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1335
+msgid "Set your woocommerce cross sell product column."
+msgstr "Définissez votre colonne de produits de vente croisée woocommerce."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1134
+msgid "Set your woocommerce product column."
+msgstr "Définissez votre colonne de produits woocommerce."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1243
+msgid "Set your woocommerce related product column."
+msgstr "Définissez votre colonne de produits apparentés woocommerce."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1289
+msgid "Set your woocommerce upsell product column."
+msgstr "Définissez votre colonne de produit de vente incitative woocommerce."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1024
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1377
+msgid ""
+"Setting page header background. If you use this option then you will able to "
+"set Background Color, Background Image, Background Repeat, Background Size, "
+"Background Attachment, Background Position."
+msgstr ""
+"Définition de l'arrière-plan de l'en-tête de la page. Si vous utilisez cette "
+"option, vous pourrez définir la couleur d'arrière-plan, l'image d'arrière-"
+"plan, la répétition de l'arrière-plan, la taille de l'arrière-plan, "
+"l'attachement à l'arrière-plan et la position de l'arrière-plan."
+
+#: inc/redux-custom-field/extensions/box_shadow/box_shadow/field_box_shadow.php:370
+#: inc/redux-custom-field/extensions/box_shadow/box_shadow/field_box_shadow.php:371
+msgid "Shadow Color"
+msgstr "Couleur de l'ombre"
+
+#: inc/redux-custom-field/extensions/box_shadow/box_shadow/field_box_shadow.php:417
+msgid "Shadow Preview"
+msgstr "Aperçu de l'ombre"
+
+#: inc/redux-custom-field/extensions/box_shadow/box_shadow/field_box_shadow.php:388
+#: inc/redux-custom-field/extensions/box_shadow/box_shadow/field_box_shadow.php:389
+#: inc/redux-custom-field/extensions/box_shadow/box_shadow/field_box_shadow.php:390
+msgid "Shadow Type"
+msgstr "Type d'ombre"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:762
+msgid "Share Options"
+msgstr "Options sur actions"
+
+#: woocommerce/checkout/form-shipping.php:28
+msgid "Ship to a different address?"
+msgstr "Envoyer à une autre adresse ?"
+
+#: woocommerce/cart/cart-totals.php:52 woocommerce/cart/cart-totals.php:53
+msgid "Shipping"
+msgstr "Expédition"
+
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/myaccount/form-edit-address.php:20
+#: woocommerce/order/order-details-customer.php:46
+msgid "Shipping address"
+msgstr "Adresse de livraison"
+
+#: woocommerce/cart/cart-shipping.php:78
+msgid "Shipping options will be updated during checkout."
+msgstr "Les options d'expédition seront mises à jour lors de la commande."
+
+#. $s shipping destination.
+#: woocommerce/cart/cart-shipping.php:75
+#, php-format
+msgid "Shipping to %s."
+msgstr "Expédition à %s."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1211
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1218
+msgid "Shop Details"
+msgstr "Détails de la boutique"
+
+#: woocommerce/loop/orderby.php:24
+msgid "Shop order"
+msgstr "Commande d'achat"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:334
+msgid "Short Description"
+msgstr "Brève description"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:617
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:657
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:764
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:773
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:782
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:798
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1227
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1273
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1319
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:76
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:100
+msgid "Show"
+msgstr "Afficher"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:851
+msgid "Sidebar Options"
+msgstr "Options de la barre latérale"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:984
+msgid "Sidebar Settings"
+msgstr "Paramètres de la barre latérale"
+
+#. $1 and $2 opening and closing emphasis tags respectively
+#: woocommerce/checkout/payment.php:42
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+"Étant donné que votre navigateur ne prend pas en charge JavaScript ou qu'il "
+"est désactivé, assurez-vous de cliquer sur le bouton %1$sUpdate Totals%2$s "
+"avant de passer votre commande. Si vous ne le faites pas, vous risquez "
+"d'être débité d'un montant supérieur à celui indiqué ci-dessus."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:705
+msgid "Single Blog Page"
+msgstr "Page de blog unique"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:580
+msgid "Single Column Left Sidebar"
+msgstr "Barre latérale gauche à colonne unique"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:576
+msgid "Single Column No Sidebar"
+msgstr "Colonne unique sans barre latérale"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:584
+msgid "Single Column Right Sidebar"
+msgstr "Barre latérale droite à colonne unique"
+
+#: inc/woo-hooks/taxseco-woo-hooks-functions.php:451
+msgid "SKU:"
+msgstr "SKU :"
+
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:72
+msgid "Slide"
+msgstr "Diapositive"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:372
+msgid "smile"
+msgstr "sourire"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:379
+msgid "soap"
+msgstr "savon"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1479
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1482
+msgid "Social"
+msgstr "Social"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1487
+msgid "Social Profile Links"
+msgstr "Liens vers les profils sociaux"
+
+#: inc/hooks/hooks-functions.php:402
+msgid "Social Share"
+msgstr "Partage social"
+
+#: 404.php:26
+msgid "Sorry! Page Was Not Found"
+msgstr "Désolé ! La page n'a pas été trouvée"
+
+#: templates/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Désolé, mais rien ne correspond à vos termes de recherche. Veuillez "
+"réessayer avec d'autres mots-clés."
+
+#: woocommerce/checkout/payment.php:33
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"Désolé, il semble qu'il n'y ait pas de méthode de paiement disponible pour "
+"votre pays. Veuillez nous contacter si vous avez besoin d'aide ou si vous "
+"souhaitez prendre d'autres dispositions."
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:378
+msgid "spray"
+msgstr "pulvériser"
+
+#: inc/redux-custom-field/extensions/box_shadow/box_shadow/field_box_shadow.php:305
+msgid "Spread"
+msgstr "Diffusion"
+
+#: inc/redux-custom-field/extensions/box_shadow/box_shadow/field_box_shadow.php:303
+msgid "Spread Radius"
+msgstr "Rayon de dispersion"
+
+#: woocommerce/cart/shipping-calculator.php:50
+#: woocommerce/cart/shipping-calculator.php:55
+#: woocommerce/cart/shipping-calculator.php:67
+msgid "State / County"
+msgstr "Etat / Comté"
+
+#: woocommerce/wishlist-view.php:68
+msgid "Stock status"
+msgstr "État des stocks"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:502
+msgid "Submenu Background Color"
+msgstr "Couleur d'arrière-plan du sous-menu"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:509
+msgid "Submenu Border Top Color"
+msgstr "Couleur du haut de la bordure du sous-menu"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:488
+msgid "Submenu Color"
+msgstr "Sous-menu Couleur"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:495
+msgid "Submenu Hover Color"
+msgstr "Couleur de survol du sous-menu"
+
+#: woocommerce/cart/cart.php:141
+msgid "Submit"
+msgstr "Soumettre"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1454
+msgid "Subscribe"
+msgstr "S'abonner"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1435
+msgid "Subtitle Color"
+msgstr "Couleur des sous-titres"
+
+#: woocommerce/cart/cart-totals.php:30 woocommerce/cart/cart-totals.php:31
+#: woocommerce/checkout/review-order.php:24
+#: woocommerce/checkout/review-order.php:56
+msgid "Subtotal"
+msgstr "Sous-total"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:998
+msgid ""
+"Switch enabled to display page title. Fot this option you will able to show "
+"/ hide page title.  Default setting Enabled"
+msgstr ""
+"Activer l'affichage du titre de la page. Cette option permet d'afficher ou "
+"de masquer le titre de la page.  Paramètre par défaut Activé"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:341
+msgid "Switch Enabled to Display Preloader."
+msgstr "Activez l'option Activé pour afficher le préchargeur."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:258
+msgid "Switch On to Display back to top button."
+msgstr "Allumer pour afficher le bouton de retour en haut de la page."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:841
+msgid "Switch On to Display Category."
+msgstr "Allumer pour afficher la catégorie."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:832
+msgid "Switch On to Display Comment Count."
+msgstr "Activer pour afficher le nombre de commentaires."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:814
+msgid "Switch On to Display Post Date."
+msgstr "Allumer pour afficher la date d'affichage."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:823
+msgid "Switch On to Display Post Views."
+msgstr "Activer l'affichage des articles."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:754
+msgid "Switch On to Display Tags."
+msgstr "Allumer pour afficher les étiquettes."
+
+#: templates/content-single.php:89
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:753
+msgid "Tags"
+msgstr "Tags"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:360
+msgid "target"
+msgstr "cible"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:362
+msgid "target-1"
+msgstr "cible-1"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:387
+msgid "teamwork"
+msgstr "travail d'équipe"
+
+#. Name of the template
+msgid "Template Builder"
+msgstr "Constructeur de modèles"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:458
+msgid "Text Logo"
+msgstr "Logo texte"
+
+#: woocommerce/myaccount/my-address.php:46
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+"Les adresses suivantes seront utilisées par défaut sur la page de paiement."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:236
+msgid "Theme Color"
+msgstr "Couleur du thème"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:197
+msgid "Theme Information 1"
+msgstr "Informations sur le thème 1"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:202
+msgid "Theme Information 2"
+msgstr "Informations sur le thème 2"
+
+#: woocommerce/single-product-reviews.php:55
+msgid "There are no reviews yet."
+msgstr "Il n'y a pas encore de commentaires."
+
+#: woocommerce/cart/cart-shipping.php:87
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+"Il n'y a pas d'options d'expédition disponibles. Veuillez vous assurer que "
+"votre adresse a été saisie correctement, ou contactez-nous si vous avez "
+"besoin d'aide."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:747
+msgid "This title will show in Breadcrumb title."
+msgstr "Ce titre apparaîtra dans le titre du fil d'Ariane."
+
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:158
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:254
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:997
+msgid "Title"
+msgstr "Titre"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1419
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1427
+msgid "Title Color"
+msgstr "Titre Couleur"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1015
+msgid "Title Tag"
+msgstr "Étiquette du titre"
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:107
+#: woocommerce/cart/cart-totals.php:100
+#: woocommerce/checkout/review-order.php:103
+msgid "Total"
+msgstr "Total"
+
+#: inc/woo-hooks/taxseco-woo-hooks.php:177
+#: inc/woo-hooks/taxseco-woo-hooks.php:228
+#: inc/woo-hooks/taxseco-woo-hooks.php:307
+#: inc/woo-hooks/taxseco-woo-hooks.php:376
+msgid "Town / City"
+msgstr "Ville"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:365
+msgid "trophy"
+msgstr "trophée"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:282
+msgid "Twitter URL"
+msgstr "URL Twitter"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:210
+msgid "Type your Department "
+msgstr "Tapez votre département"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:218
+msgid "Type your Designation "
+msgstr "Tapez votre désignation"
+
+#: inc/redux-custom-field/extensions/box_shadow/box_shadow/field_box_shadow.php:339
+#: inc/redux-custom-field/extensions/box_shadow/box_shadow/field_box_shadow.php:340
+#: inc/redux-custom-field/extensions/box_shadow/box_shadow/field_box_shadow.php:341
+#: inc/redux-custom-field/extensions/box_shadow/box_shadow/field_box_shadow.php:341
+msgid "Units"
+msgstr "Unités"
+
+#: woocommerce/cart/shipping-calculator.php:86
+msgid "Update"
+msgstr "Mise à jour"
+
+#: woocommerce/cart/cart.php:149
+msgid "Update cart"
+msgstr "Mise à jour du panier"
+
+#: woocommerce/checkout/payment.php:44
+msgid "Update totals"
+msgstr "Mise à jour des totaux"
+
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:139
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:242
+msgid "Upload"
+msgstr "Télécharger"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:242
+msgid "Upload an extra thumbnail for this member."
+msgstr "Téléchargez une vignette supplémentaire pour ce membre."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:352
+msgid "Upload Preloader Image"
+msgstr "Télécharger l'image de préchargement"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:429
+msgid "Upload your site logo for header ( recommendation png format )."
+msgstr ""
+"Téléchargez le logo de votre site pour l'en-tête (format png de "
+"recommandation)."
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1270
+msgid "Upsell product Hide/Show"
+msgstr "Produit de vente incitative Cacher/Afficher"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1288
+msgid "Upsells Product Column"
+msgstr "Vente incitative Colonne de produits"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1279
+msgid "Upsells products number"
+msgstr "Vente incitative produits nombre"
+
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:207
+#: inc/redux-custom-field/taxseco-option-slide-add-field.php:301
+msgid "URL"
+msgstr "URL"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:51
+msgid "Use This Field When Post Format Audio"
+msgstr "Utiliser ce champ lors du post formatage audio"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:45
+msgid "Use This Field When Post Format Video"
+msgstr "Utiliser ce champ lors du post formatage de la vidéo"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:57
+msgid "Use This Field When You Want A Slider In Post Thumbnail"
+msgstr ""
+"Utilisez ce champ lorsque vous voulez un slider dans la vignette de l'article"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:374
+msgid "user"
+msgstr "utilisateur"
+
+#: woocommerce/myaccount/form-login.php:52
+#: woocommerce/myaccount/form-login.php:93
+msgid "User Name"
+msgstr "Nom de l'utilisateur"
+
+#: woocommerce/myaccount/form-lost-password.php:30
+#: woocommerce/global/form-login.php:31
+msgid "Username or email"
+msgstr "Nom d'utilisateur ou courriel"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:391
+msgid "vacuum-cleaner"
+msgstr "aspirateur"
+
+#: inc/hooks/hooks-functions.php:296
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1603
+msgid "Vecuro"
+msgstr "Vecuro"
+
+#. Author of the theme
+msgid "Angfuzsoft"
+msgstr "Angfuzsoft"
+
+#: inc/woo-hooks/taxseco-woo-hooks-functions.php:491
+msgid "verified owner"
+msgstr "propriétaire vérifié"
+
+#: woocommerce/single-product-reviews.php:101
+#: woocommerce/single-product-reviews.php:112
+msgid "Very poor"
+msgstr "Très faible"
+
+#: inc/woo-hooks/taxseco-woo-hooks-functions.php:519
+msgid "View cart"
+msgstr "Voir le panier"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:390
+msgid "washing-machine"
+msgstr "machine à laver"
+
+#: inc/taxseco-functions.php:366
+msgid "What are you looking for?"
+msgstr "Que recherchez-vous ?"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:936
+msgid "Widget Anchor Color"
+msgstr "Couleur de l'ancre du widget"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:882
+msgid "Widget Border"
+msgstr "Bordure du widget"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:943
+msgid "Widget Hover Color"
+msgstr "Couleur du survol du widget"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:864
+msgid "Widget Margin"
+msgstr "Marge du widget"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:873
+msgid "Widget Padding"
+msgstr "Remplissage du widget"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:929
+msgid "Widget Text Color"
+msgstr "Couleur du texte du widget"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:922
+msgid "Widget Title Color"
+msgstr "Couleur du titre du widget"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:905
+msgid "Widget Title Margin"
+msgstr "Marge du titre du widget"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:913
+msgid "Widget Title Padding"
+msgstr "Remplissage du titre du widget"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:900
+msgid "Widget Title Tag"
+msgstr "Titre du widget"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:858
+msgid "Widgets Background Color"
+msgstr "Couleur d'arrière-plan des widgets"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:384
+msgid "window"
+msgstr "fenêtre"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:393
+msgid "window-1"
+msgstr "fenêtre-1"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:355
+msgid "wipe"
+msgstr "essuyer"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:386
+msgid "wiping-swip"
+msgstr "essuyer-essuyer"
+
+#: inc/taxseco-framework/plugins-activation/taxseco-active-plugins.php:94
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:1103
+msgid "Woocommerce Page"
+msgstr "Page Woocommerce"
+
+#: inc/taxseco-widgets-reg.php:88
+msgid "WooCommerce Sidebar"
+msgstr "Barre latérale WooCommerce"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:225
+msgid "Working Experience"
+msgstr "Expérience professionnelle"
+
+#: inc/taxseco-framework/plugins-activation/taxseco-active-plugins.php:108
+msgid "WPC Smart Compare for WooCommerce"
+msgstr "WPC Smart Compare pour WooCommerce"
+
+#: inc/taxseco-framework/plugins-activation/taxseco-active-plugins.php:115
+msgid "WPC Smart Quick View for WooCommerce"
+msgstr "WPC Smart Quick View pour WooCommerce"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:335
+msgid "Write a short description here"
+msgstr "Rédigez une brève description ici"
+
+#: woocommerce/single-product-reviews.php:117
+msgid "Write your comments"
+msgstr "Ecrivez vos commentaires"
+
+#: inc/taxseco-framework/taxseco-options/taxseco-options.php:459
+msgid ""
+"Write your logo text use as logo ( You can use span tag for text color )."
+msgstr ""
+"Écrivez le texte de votre logo et utilisez-le comme logo (vous pouvez "
+"utiliser la balise span pour la couleur du texte)."
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:234
+msgid "Write your qoute text here"
+msgstr "Écrivez votre texte de question ici"
+
+#: inc/hooks/hooks-functions.php:444
+msgid "Written by"
+msgstr "Rédigé par"
+
+#: inc/redux-custom-field/extensions/box_shadow/box_shadow/field_box_shadow.php:245
+msgid "X"
+msgstr "X"
+
+#: inc/redux-custom-field/extensions/box_shadow/box_shadow/field_box_shadow.php:265
+msgid "Y"
+msgstr "Y"
+
+#: inc/taxseco-framework/plugins-activation/taxseco-active-plugins.php:101
+msgid "YITH WooCommerce Wishlist"
+msgstr "YITH WooCommerce Wishlist"
+
+#: woocommerce/myaccount/my-address.php:80
+msgid "You have not set up this type of address yet."
+msgstr "Vous n'avez pas encore configuré ce type d'adresse."
+
+#: woocommerce/single-product/up-sells.php:28
+msgid "You may also like"
+msgstr "Vous pouvez aussi aimer"
+
+#: woocommerce/cart/cross-sells.php:26
+msgid "You may be interested in"
+msgstr "Vous pouvez être intéressé par"
+
+#. %s opening and closing link tags respectively
+#: woocommerce/single-product-reviews.php:91
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr "Vous devez être %1$slogged in%2$s pour publier un commentaire."
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr "Vous devez être connecté pour passer à la caisse."
+
+#: woocommerce/cart/cart-empty.php:30
+#: inc/woo-hooks/taxseco-woo-hooks-functions.php:606
+msgid "Your cart is currently empty."
+msgstr "Votre panier est actuellement vide."
+
+#: inc/taxseco-functions.php:253
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: woocommerce/single-product-reviews.php:86
+msgid "Your E-mail"
+msgstr "Votre e-mail"
+
+#: woocommerce/myaccount/form-edit-account.php:37
+msgid "Your Email"
+msgstr "Votre courriel"
+
+#: comments.php:66
+msgid "Your Email *"
+msgstr "Votre Email *"
+
+#: comments.php:81
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr ""
+"Votre adresse électronique ne sera pas publiée. Les champs obligatoires sont "
+"marqués *"
+
+#: woocommerce/single-product-reviews.php:85
+msgid "Your Name"
+msgstr "Votre nom"
+
+#: woocommerce/single-product-reviews.php:95
+#: woocommerce/single-product-reviews.php:106
+msgid "Your Rating"
+msgstr "Votre évaluation"
+
+#: inc/woo-hooks/taxseco-woo-hooks-functions.php:480
+msgid "Your review is awaiting approval"
+msgstr "Votre avis est en attente d'approbation"
+
+#: inc/taxseco-framework/taxseco-meta/taxseco-config.php:306
+msgid "Youtube URL"
+msgstr "URL de Youtube"

@@ -1,0 +1,27 @@
+
+s	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(ÛÇ›±ÿÿÿÿÿ8ä”ıĞğ0
+s	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(ÛÇ›±ÿÿÿÿÿ8ä”ıĞğ0
+n	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(Æİ·±8ä”ıĞğ0
+s	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(á¦—÷şÿÿÿÿ8ä”ıĞğ0
+m	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(ˆÓ†8ä”ıĞğ0
+e	php:S1808"JPut one space between the closing parenthesis and the opening curly brace.(ˆÓ†8ä”ıĞğ0
+s	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(Ëõ¸ºıÿÿÿÿ8ä”ıĞğ0
+k	php:S1808"JPut one space between the closing parenthesis and the opening curly brace.(Ëõ¸ºıÿÿÿÿ8ä”ıĞğ0
+s	php:S1808#"RRemove all space after the opening parenthesis and before the closing parenthesis.(ˆÚ…‡ÿÿÿÿÿ8ä”ıĞğ0
+k	php:S1808#"JPut one space between the closing parenthesis and the opening curly brace.(ˆÚ…‡ÿÿÿÿÿ8ä”ıĞğ0
+s	php:S1808$"RRemove all space after the opening parenthesis and before the closing parenthesis.(ªª±ûÿÿÿÿ8ä”ıĞğ0
+k	php:S1808$"JPut one space between the closing parenthesis and the opening curly brace.(ªª±ûÿÿÿÿ8ä”ıĞğ0
+m	php:S1808,"RRemove all space after the opening parenthesis and before the closing parenthesis.(ˆÓ†8ä”ıĞğ0
+e	php:S1808,"JPut one space between the closing parenthesis and the opening curly brace.(ˆÓ†8å”ıĞğ0
+s	php:S18081"RRemove all space after the opening parenthesis and before the closing parenthesis.(Ëõ¸ºıÿÿÿÿ8å”ıĞğ0
+k	php:S18081"JPut one space between the closing parenthesis and the opening curly brace.(Ëõ¸ºıÿÿÿÿ8å”ıĞğ0
+_	php:S1808"DPut one space between this "if" keyword and the opening parenthesis.(ˆÓ†8å”ıĞğ0
+i	php:S1808"HPut one space between this "elseif" keyword and the opening parenthesis.(Ëõ¸ºıÿÿÿÿ8å”ıĞğ0
+b	php:S1808"FPut one space between this "else" keyword and the opening curly brace.(å¥‡8å”ıĞğ0
+e	php:S1808#"DPut one space between this "if" keyword and the opening parenthesis.(ˆÚ…‡ÿÿÿÿÿ8å”ıĞğ0
+h	php:S1808$"GPut one space between this "while" keyword and the opening parenthesis.(ªª±ûÿÿÿÿ8å”ıĞğ0
+_	php:S1808,"DPut one space between this "if" keyword and the opening parenthesis.(ˆÓ†8å”ıĞğ0
+i	php:S18081"HPut one space between this "elseif" keyword and the opening parenthesis.(Ëõ¸ºıÿÿÿÿ8å”ıĞğ0
+b	php:S18086"FPut one space between this "else" keyword and the opening curly brace.(å¥‡8å”ıĞğ0
+m	php:S18711"LThis branch's code block is the same as the block for the branch on line 44.(Ëõ¸ºıÿÿÿÿ8å”ıĞğ0
+i	php:S1192+"HDefine a constant instead of duplicating this literal "</div>" 10 times.(˜ñÄøÿÿÿÿ8å”ıĞğ0

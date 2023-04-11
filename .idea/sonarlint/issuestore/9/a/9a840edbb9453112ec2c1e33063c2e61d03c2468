@@ -1,0 +1,33 @@
+
+l	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(ÛÇ›±ÿÿÿÿÿ
+l	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(ÛÇ›±ÿÿÿÿÿ
+d	php:S1808"JPut one space between the closing parenthesis and the opening curly brace.(ÛÇ›±ÿÿÿÿÿ
+l	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(êÙõúÿÿÿÿ
+l	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(êÙõúÿÿÿÿ
+l	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(¥á¹ıÿÿÿÿ
+l	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(¹ÊõÍüÿÿÿÿ
+l	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(ß¯øÿÿÿÿ
+l	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(äŞĞ³üÿÿÿÿ
+l	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(³£²üşÿÿÿÿ
+l	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(ÍªÓÊøÿÿÿÿ
+l	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(®“òûÿÿÿÿ
+l	php:S1808"RRemove all space after the opening parenthesis and before the closing parenthesis.(®“òûÿÿÿÿ
+f	php:S1808 "RRemove all space after the opening parenthesis and before the closing parenthesis.(ıæ¼
+g	php:S1808""RRemove all space after the opening parenthesis and before the closing parenthesis.(ºáì»
+l	php:S1808("RRemove all space after the opening parenthesis and before the closing parenthesis.(şˆœÏşÿÿÿÿ
+l	php:S1808*"RRemove all space after the opening parenthesis and before the closing parenthesis.(¸‚ğ¸øÿÿÿÿ
+l	php:S1808*"RRemove all space after the opening parenthesis and before the closing parenthesis.(¸‚ğ¸øÿÿÿÿ
+l	php:S1808+"RRemove all space after the opening parenthesis and before the closing parenthesis.(‹ÎÁªüÿÿÿÿ
+l	php:S1808,"RRemove all space after the opening parenthesis and before the closing parenthesis.(Ğ»¤¹øÿÿÿÿ
+l	php:S18085"RRemove all space after the opening parenthesis and before the closing parenthesis.(ÑºÄåÿÿÿÿÿ
+l	php:S18089"RRemove all space after the opening parenthesis and before the closing parenthesis.(•áŒÓûÿÿÿÿ
+g	php:S1808;"RRemove all space after the opening parenthesis and before the closing parenthesis.(ºáì»
+^	php:S1808"DPut one space between this "if" keyword and the opening parenthesis.(ÛÇ›±ÿÿÿÿÿ
+^	php:S1808"DPut one space between this "if" keyword and the opening parenthesis.(êÙõúÿÿÿÿ
+^	php:S1808"DPut one space between this "if" keyword and the opening parenthesis.(¥á¹ıÿÿÿÿ
+^	php:S1808"DPut one space between this "if" keyword and the opening parenthesis.(ÍªÓÊøÿÿÿÿ
+^	php:S1808"DPut one space between this "if" keyword and the opening parenthesis.(®“òûÿÿÿÿ
+^	php:S1808("DPut one space between this "if" keyword and the opening parenthesis.(şˆœÏşÿÿÿÿ
+^	php:S18085"DPut one space between this "if" keyword and the opening parenthesis.(ÑºÄåÿÿÿÿÿ
+3php:S113"'Add a new line at the end of this file.
+d	php:S1192#"JDefine a constant instead of duplicating this literal "</header>" 3 times.(ß‰æÜøÿÿÿÿ
