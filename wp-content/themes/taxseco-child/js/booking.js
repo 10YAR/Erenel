@@ -79,7 +79,7 @@ function checkPrice() {
     let place_arrivee = autocomplete_arrivee.getPlace();
 
     if (depart && arrivee && date && time && place_depart.place_id && place_arrivee.place_id) {
-        $.post("xhr.calculate_trip.php",
+        $.post("/xhr.calculate_trip.php",
             {
                 depart: place_depart.place_id,
                 arrivee: place_arrivee.place_id,
