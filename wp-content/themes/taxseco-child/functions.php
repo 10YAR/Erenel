@@ -7,7 +7,6 @@
  * @version     1.0
  *
  */
-
 /**
  * Enqueue style of child theme
  */
@@ -18,9 +17,8 @@ function taxseco_child_enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'taxseco_child_enqueue_styles', 100000 );
 
 function erenel_enqueue_scripts() {
-    wp_enqueue_script( 'flatpickr', get_stylesheet_directory_uri() . '/js/flatpickr.js', array( 'jquery' ), wp_get_theme()->get('Version'), true );
-    wp_enqueue_script( 'flatpickr-fr', get_stylesheet_directory_uri() . '/js/flatpickr-fr.js', array( 'jquery', 'flatpickr' ), wp_get_theme()->get('Version'), true );
-    wp_enqueue_script( 'momentjs', get_stylesheet_directory_uri() . '/js/moment.js', array( 'jquery' ), wp_get_theme()->get('Version'), true );
-    wp_enqueue_script( 'booking', get_stylesheet_directory_uri() . '/js/booking.js?v='.time(), array( 'jquery', 'flatpickr', 'momentjs' ), wp_get_theme()->get('Version'), true );
+    wp_enqueue_script( 'booking', get_stylesheet_directory_uri() . '/js/booking.js?v='.time(), array( 'jquery' ), wp_get_theme()->get('Version'), true );
+    wp_enqueue_script( 'google-cloud', "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&callback=initializeMap&key=" . $_ENV['GOOGLE_CLOUD_API_KEY'], array( 'booking' ), wp_get_theme()->get('Version'), true );
+    wp_enqueue_script( 'google-captcha', "https://www.google.com/recaptcha/api.js?render=" . $_ENV['CAPTCHA_PUBLIC_API_KEY'], array( 'booking' ), wp_get_theme()->get('Version'), true );
 }
 add_action( 'wp_enqueue_scripts', 'erenel_enqueue_scripts' );

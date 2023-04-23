@@ -280,91 +280,37 @@
     };
   });
 
-
-//add js
-   /*----------- 13. Filter ----------*/
-  // $('.filter-active').imagesLoaded(function () {
-  //   var $filter = '.filter-active',
-  //     $filterItem = '.filter-item',
-  //     $filterMenu = '.filter-menu-active';
-
-  //   if ($($filter).length > 0) {
-  //     var $grid = $($filter).isotope({
-  //       itemSelector: $filterItem,
-  //       filter: '*',
-  //       masonry: {
-  //         // use outer width of grid-sizer for columnWidth
-  //         columnWidth: 1
-  //       }
-  //     });
-
-  //     // filter items on button click
-  //     $($filterMenu).on('click', 'button', function () {
-  //       var filterValue = $(this).attr('data-filter');
-  //       $grid.isotope({
-  //         filter: filterValue
-  //       });
-  //     });
-
-  //     // Menu Active Class 
-  //     $($filterMenu).on('click', 'button', function (event) {
-  //       event.preventDefault();
-  //       $(this).addClass('active');
-  //       $(this).siblings('.active').removeClass('active');
-  //     });
-  //   };
-  // });
-
-
-  // // Active specifix
-  // $('.filter-active-cat1').imagesLoaded(function () {
-  //   var $filter = '.filter-active-cat1',
-  //     $filterItem = '.filter-item',
-  //     $filterMenu = '.filter-menu-active';
-
-  //   if ($($filter).length > 0) {
-  //     var $grid = $($filter).isotope({
-  //       itemSelector: $filterItem,
-  //       filter: '.cat1',
-  //       masonry: {
-  //         // use outer width of grid-sizer for columnWidth
-  //         columnWidth: 1
-  //       }
-  //     });
-
-  //     // filter items on button click
-  //     $($filterMenu).on('click', 'button', function () {
-  //       var filterValue = $(this).attr('data-filter');
-  //       $grid.isotope({
-  //         filter: filterValue
-  //       });
-  //     });
-
-  //     // Menu Active Class 
-  //     $($filterMenu).on('click', 'button', function (event) {
-  //       event.preventDefault();
-  //       $(this).addClass('active');
-  //       $(this).siblings('.active').removeClass('active');
-  //     });
-  //   };
-  // });
-
-  //end js
-
   /*----------- 14. Date Time Picker ----------*/
+  const today = new Date();
+  $.datetimepicker.setLocale('fr');
   // Only Date Picker
   $('.date-pick').datetimepicker({
+      i18n:{
+          fr:{
+              months:[
+                  'Janvier','Février','Mars','Avril',
+                  'Mai','Juin','Juillet','Août',
+                  'Septembre','Octobre','Novembre','Décembre',
+              ],
+              dayOfWeek:[
+                  "L", "M", "Me", "J",
+                  "V", "S", "D",
+              ]
+          }
+      },
     timepicker: false,
     datepicker: true,
-    format: 'd-m-y',
-    step: 10
+    format: 'd/m/Y',
+    minDate: today,
+    step: 10,
   });
 
   // Only Time Picker
   $('.time-pick').datetimepicker({
-    datepicker:false,
-    format:'H:i',
-    step:30
+    datepicker: false,
+    format: 'H:i',
+    step: 10,
+    lang: 'fr'
   });
 
   
@@ -526,32 +472,6 @@
           $(this).css('background-image', 'url(' + src + ')');
           $(this).removeAttr('data-bg-src').addClass('background-image');
         });
-    }; 
-
-// /*----------- 00. Right Click Disable ----------*/
-//   window.addEventListener('contextmenu', function (e) {
-//     // do something here... 
-//     e.preventDefault();
-//   }, false);
-
-
-// /*----------- 00. Inspect Element Disable ----------*/
-//   document.onkeydown = function (e) {
-//     if (event.keyCode == 123) {
-//       return false;
-//     }
-//     if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-//       return false;
-//     }
-//     if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-//       return false;
-//     }
-//     if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-//       return false;
-//     }
-//     if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-//       return false;
-//     }
-//   }
+    };
  
 })(jQuery);

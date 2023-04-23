@@ -345,7 +345,7 @@
             }
             if( function_exists( 'taxseco_social_sharing_buttons' ) && $taxseco_post_details_share_options ) {
                 echo '<div class="col-md-auto text-md-end">';
-                echo '<span class="share-links-title">'.__( 'Share:', 'taxseco' ).'</span>';
+                echo '<span class="share-links-title">'.__( 'Partager:', 'taxseco' ).'</span>';
                     echo '<div class="social-links">';
                         echo '<ul class="social-links">';
                             echo taxseco_social_sharing_buttons();
@@ -394,7 +394,7 @@
                                     echo get_the_post_thumbnail( $prevpost->ID, 'taxseco_80X80' );
                                 };
                             }
-                                echo '<span class="nav-text">'.esc_html__( ' Previous Post', 'taxseco' ).'</span>';
+                                echo '<span class="nav-text">'.esc_html__( ' Article précédent', 'taxseco' ).'</span>';
                             echo '</a>';
                         }
                     echo '</div>';
@@ -469,7 +469,7 @@
                 echo '<div class="blog-comment-area">';
                     echo taxseco_heading_tag( array(
                         "tag"   => "h3",
-                        "text"  => esc_html__( 'Comments are closed', 'taxseco' ),
+                        "text"  => '',
                         "class" => "inner-title"
                     ) );
                 echo '</div>';

@@ -1,47 +1,67 @@
 <?php
+date_default_timezone_set('Europe/Paris');
 require_once "vendor/autoload.php";
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
-if (!empty($_POST['depart']) && !empty($_POST['arrivee']) && !empty($_POST['pick_date']) && !empty($_POST['pick_time'])) {
+global $pdo;
+$pdo = new PDO('mysql:host='.$_ENV['DB_HOST'].';dbname='.$_ENV['DB_NAME'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD']);
+
+if (!empty($_POST['pick_date']) && !empty($_POST['pick_time']) && !empty($_POST['type'])) {
 
     $depart = $_POST["depart"];
     $arrivee = $_POST["arrivee"];
     $pick_date = $_POST["pick_date"];
     $pick_time = $_POST["pick_time"];
-    $allerretour = $_POST['allerretour'];
+    $type = $_POST['type'];
+    $nb_heure = $_POST['nb_heure'];
 
-    echo json_encode(calculatePrice($depart, $arrivee, $pick_date, $pick_time, $allerretour));
+    echo json_encode(calculatePrice($depart, $arrivee, $pick_date, $pick_time, $type, $nb_heure));
 }
 
-function calculatePrice($depart, $arrivee, $pick_date, $pick_time, $allerretour): array
+function calculatePrice($depart, $arrivee, $pick_date, $pick_time, $type_trajet, $nb_heure): array
 {
 
+    // Step 1: Gestion de la date / heure
     $pick_hour = substr($pick_time, 0, 2);
     $pick_minute = substr($pick_time, 3, 2);
-
-    // Date formattée en anglais
     $formatted_date = transDate($pick_date) . " ".$pick_hour.":".$pick_minute.":00";
-
     $timestamp1 = strtotime($formatted_date);
     $timestamp2 = strtotime(date("Y-m-d H:i:s"));
-
     // Cas où la date de réservation est déjà passée
     if ($timestamp1 <= $timestamp2) {
-        return (["error" => 1, "message" => "L'heure indiquée est déjà dépassée !"]);
+        return (["error" => 1, "message" => "L'heure indiquée est déjà passée."]);
     }
-
+    // Cas où la réservation est trop tôt (-10 minutes)
     $diff_timestamp = $timestamp1 - $timestamp2;
-    if ($diff_timestamp < 900) {
-        return (["error" => 2, "message" => "Votre réservation est trop tôt. Choisissez un horaire de départ supérieur à 15 minutes."]);
+    if ($diff_timestamp < 600) {
+        return (["error" => 2, "message" => "Votre réservation est trop tôt.<br /> Choisissez un horaire de départ supérieur à 10 minutes."]);
     }
 
+
+    // Step 2: Gestion du prix
+    $km_price = getTarif();
+    $heure_price = getTarif("prix_heure");
+    // Si réservation de nuit... prix plus cher!
+    $pick_time_frm = (float) ($pick_hour . "." . $pick_time);
+    if ($pick_time_frm >= 22.0 || $pick_time_frm <= 7.0) {
+        $km_price = getTarif("prix_km_nuit");
+        $heure_price = getTarif("prix_heure_nuit");
+    }
+
+    // Si trajet à l'heure on retourne directement le prix
+    if ($type_trajet === "a-lheure") {
+        $price = $nb_heure * $heure_price;
+        return (["type_trajet" => "a-lheure", "price" => (ceil(round($price)/10) * 10) - 5]);
+    }
+
+    // Step 3: Gestion du trajet (pour les aller simple ou aller-retour)
+
+    // Cas où l'adresse de départ est trop loin de Montereau
     $distance_from_home = getDistance("ChIJA-x2ddZC70cR5s7vOh8QaPA", $depart);
     $value_distance_from_home = $distance_from_home->routes[0]->legs[0]->distance->value ?? 1000000;
-
-    // Cas où c'est trop loin
     if ($value_distance_from_home > 150000) {
-        return (["error" => 3, "message" => "Nous sommes désolés, nous ne proposons pas nos services de taxi dans votre secteur"]);
+        //return (["error" => 3, "message" => "Nous sommes désolés, nous ne proposons pas nos services de taxi dans votre secteur"]);
     }
 
     $distance = getDistance($depart, $arrivee);
@@ -50,30 +70,23 @@ function calculatePrice($depart, $arrivee, $pick_date, $pick_time, $allerretour)
     $duration = $timestamp1 + $distance->routes[0]->legs[0]->duration->value;
     $duration_text = $distance->routes[0]->legs[0]->duration->text;
 
-    $km_price = 1.9;
-
-    // Si réservation de nuit... prix plus cher!
-    $pick_time_frm = (float) ($pick_hour . "." . $pick_time);
-    if ($pick_time_frm >= 22.0 || $pick_time_frm <= 7.0) $km_price = 2.5;
-
     $kms = $value_distance / 1000;
     $kms_from_home = $value_distance_from_home / 1000;
 
     $price = ceil($kms * $km_price);
-    $price += ceil($kms_from_home * $km_price) / 4;
+    $price += ceil($kms_from_home * $km_price) / 6;
 
-    // Si c'est un trajet aller retour...
-    if ($allerretour == "true") {
+    // Si c'est un trajet aller retour c'est 2x plus cher
+    if ($type_trajet === "aller-retour") {
         $price *= 2;
         $dist_only = str_replace(" km", "", $text_distance);
-        $text_distance = ($dist_only*2)+3 . " km";
+        $text_distance = ($dist_only * 2) . " km";
         $duration_text .= " (x2)";
-    }else {
-        if ($value_distance < 20000) $price += 5;
     }
 
     $duration_text = str_replace([" hour", " mins"], ["h", "min"], $duration_text);
-    return (["price" => (ceil(round($price)/10) * 10) - 5, "distance" => $text_distance, "duration" => $duration, "text_duration" => $duration_text]);
+    return (["type" => "trajet", "price" => (ceil(round($price)/10) * 10) - 5, "distance" => $text_distance, "duration" => $duration, "text_duration" => $duration_text]);
+
 }
 
 function getDistance($addressFrom, $addressTo) {
@@ -90,8 +103,10 @@ function transDate($date): string
     return $year . "-" . $month . "-" . $day ;
 }
 
-function frenchDate($date): array|string
-{
-    $date = str_replace(array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'), array('Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche'), $date);
-    return $date;
+function getTarif($type = "prix_km") {
+    global $pdo;
+    $req = $pdo->prepare("SELECT option_value FROM wp_options WHERE option_name = ?");
+    $req->execute([$type]);
+    $value = $req->fetch();
+    return $value["option_value"] ?? 0;
 }

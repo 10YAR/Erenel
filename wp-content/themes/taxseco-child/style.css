@@ -84,6 +84,10 @@ a:hover {
     }
 }
 
+.quoteComments {
+    filter: brightness(0%) invert(41%) sepia(10%) saturate(7084%) hue-rotate(160deg) brightness(93%) contrast(102%);
+}
+
 .price-box-wrap {
     border-radius: 50px;
 }
@@ -140,8 +144,53 @@ a:hover {
     justify-content: center;
 }
 
+.grecaptcha-badge {
+    visibility: hidden;
+}
 
 /* Booking Form */
+
+.trip_error {
+    color: darkred;
+    font-weight: 800;
+    position: relative;
+}
+
+.trip_error_2 {
+    position: relative;
+    color: darkred;
+    font-weight: 800;
+}
+
+#trip_total {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: normal;
+    color: #008CAF;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 450px) {
+    #trip_total {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #trip_total {
+        font-size: 0.6rem;
+    }
+}
+
+#mark_tarif {
+    font-size: 1.5rem;
+}
+
+.trip_price_container {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
 
 .container-booking {
     display: flex;
@@ -157,17 +206,25 @@ a:hover {
     width: 50%;
 }
 
+#secondStep, #thirdStep {
+    display: none;
+}
+
 #book {
+    min-height: 450px;
     padding: 0 5%;
 }
 
 .book {
     background-color: white;
-    padding: 30px 30px;
     width: 90%;
     margin: 0 auto;
     display: block;
     position: relative;
+}
+
+.book section {
+    padding: 30px 30px;
 }
 
 .field-box {
@@ -180,7 +237,7 @@ a:hover {
 }
 
 .strong-stat {
-    font-size: 16px;
+    font-size: 19px;
     line-height: 22px;
     color: #444444;
     font-family: 'Roboto',sans-serif;
@@ -189,6 +246,11 @@ a:hover {
     margin-top: 15px;
     display: block;
 }
+
+.strong-stat.firstChild {
+    margin-top: 0;
+}
+
 
 .d-rows {
     display: flex;
@@ -199,12 +261,17 @@ a:hover {
     width: 100%;
 }
 
+
+
 .d-rows > div {
     width: 100%;
 }
 
 .book input[type="text"],
-.book select {
+.book select,
+.book input[type="email"],
+.book input[type="tel"],
+.book input[type="number"] {
     margin-bottom: 10px;
     height: 40px;
     padding: 0 10px 0 35px;
@@ -219,14 +286,55 @@ a:hover {
     padding: 12px 31px;
 }
 
-.booking-btn {
-    border: 2px solid #00AFDB;
+.book .courseType__Container {
+    background-color: #1B1B1B;
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
 }
 
-.booking-btn:hover,
-.booking-btn:focus {
-    color: #00AFDB !important;
-    transition: 0.3s;
+.book .courseType {
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.book .nb_heure_container {
+    display: none;
+}
+
+.book .courseType.active {
+    background-color: #47C5E5;
+}
+
+.book .toShowInStepTwo {
+    display: none;
+    background-color: #1B1B1B;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.booking-btn {
+    margin-top: 0 !important;
+    padding: 14px 31px !important;
+}
+
+.booking-btn:disabled {
+    background-color: lightgray;
+    color: #fff;
 }
 
 .book .form-group > i {
@@ -238,6 +346,8 @@ a:hover {
 .hero-slider-4 .as-hero-slide {
     padding: 180px 0;
 }
+
+
 
 @media screen and (min-width: 2250px) {
     #book {
@@ -286,7 +396,7 @@ a:hover {
     #book {
         padding: 0 2%;
     }
-    .book {
+    .book section {
         padding: 25px 25px;
     }
 }
@@ -322,7 +432,7 @@ a:hover {
     #book {
         padding: 0 0;
     }
-    .book {
+    .book section {
         padding: 20px 20px;
     }
 }
@@ -391,4 +501,8 @@ a:hover {
     .book {
         width: 95%;
     }
+}
+
+.phone-icon-header {
+    color: rgb(0,175,219);
 }

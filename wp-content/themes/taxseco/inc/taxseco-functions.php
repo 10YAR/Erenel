@@ -365,7 +365,7 @@ function taxseco_global_header_option() {
                                 echo '<div class="col-auto">';
                                     echo '<div class="row align-items-center" style="position:relative;">';
                                             echo '<a href="tel:33608174245" class="nav-phone" aria-current="page">
-                                                      <i class="fa-solid fa-phone"></i> &nbsp; 06 08 17 42 45
+                                                      <i class="fa-solid fa-phone phone-icon-header"></i> &nbsp; 06 08 17 42 45
                                                   </a>';
                                         echo '<div class="col-auto">';
                                             echo '<nav class="main-menu d-none d-lg-inline-block">';
@@ -541,7 +541,7 @@ if(! function_exists('taxseco_mobile_menu')){
                                 "container"         => '',
                                 "menu_class"        => ''
                             ) );
-                            echo '<a href="tel:33608174245" class="mobile-nav-phone"><i class="fa-solid fa-phone"></i> &nbsp; 06 08 17 42 45</a>';
+                            echo '<a href="tel:33608174245" class="mobile-nav-phone"><i class="fa-solid fa-phone phone-icon-header"></i> &nbsp; 06 08 17 42 45</a>';
                         echo '</div>';                    }
                 echo '</div>';
             echo '</div>';

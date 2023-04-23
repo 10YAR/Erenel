@@ -409,7 +409,7 @@ class Taxseco_Testimonial_Slider extends Widget_Base{
 										'url'	=> esc_url( $singleslide['client_image']['url'] ),
 									) ); ?>
 	                            <div class="testi-block_quote">
-	                                <img src="<?php echo TAXSECO_PLUGDIRURI ?>assets/img/quote_right_1.png" alt="icon">
+	                                <img class="quoteComments" src="<?php echo TAXSECO_PLUGDIRURI ?>assets/img/quote_right_1.png" alt="icon">
 	                            </div>
 	                        </div>
 	                    	<?php endif; ?>
