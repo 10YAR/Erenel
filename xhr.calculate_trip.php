@@ -73,7 +73,7 @@ function calculatePrice($depart, $arrivee, $pick_date, $pick_time, $type_trajet,
     $kms = $value_distance / 1000;
     $kms_from_home = $value_distance_from_home / 1000;
 
-    if ($kms <= 20) {
+    if ($kms <= 13) {
         if ($pick_time_frm >= 22.0 || $pick_time_frm <= 7.0)
             $price = 35;
         else
