@@ -178,6 +178,7 @@ function changeType(type) {
             jQuery(".nb_heure_container").show();
             break;
     }
+    checkPrice();
 }
 
 function sendBooking() {
