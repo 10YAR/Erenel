@@ -4,8 +4,8 @@ let autocomplete_arrivee;
 
 function initializeMap(callback) {
     // Map Limit to Seine et Marne
-    const northeast = { lat: 49.092907, lng: 3.494669 };
-    const southwest = { lat: 48.159944, lng: 1.990433};
+    const northeast = { lat: 51.181670, lng: 7.275912 };
+    const southwest = { lat: 43.217616, lng: -4.092856};
     const boundsCustom = new google.maps.LatLngBounds(southwest, northeast);
 
     autocomplete_depart = new google.maps.places.Autocomplete(

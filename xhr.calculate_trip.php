@@ -78,10 +78,17 @@ function calculatePrice($depart, $arrivee, $pick_date, $pick_time, $type_trajet,
             $price = 35;
         else
             $price = 25;
-    } else {
+    }
+    else if ($kms > 150)
+    {
+        $price = ceil($kms * ($km_price + 0.20));
+    }
+    else
+    {
         $price = ceil($kms * $km_price);
     }
-    if ($kms_from_home > 50) {
+
+    if ($kms_from_home > 80) {
         $price += ceil($kms_from_home * $km_price) / 6;
     }
 
