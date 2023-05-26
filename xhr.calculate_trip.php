@@ -81,7 +81,9 @@ function calculatePrice($depart, $arrivee, $pick_date, $pick_time, $type_trajet,
     } else {
         $price = ceil($kms * $km_price);
     }
-    $price += ceil($kms_from_home * $km_price) / 6;
+    if ($kms_from_home > 50) {
+        $price += ceil($kms_from_home * $km_price) / 6;
+    }
 
     // Si c'est un trajet aller retour c'est 2x plus cher
     if ($type_trajet === "aller-retour") {

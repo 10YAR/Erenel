@@ -52,7 +52,7 @@ if (isset($_GET['action']) && $_GET['action'] === 'accept' && !empty($_GET['toke
             'heure' => $datas['time'],
             'depart' => $datas['depart'],
             'arrivee' => $datas['arrivee'],
-            'tarif' => $datas['tarif'],
+            'tarif' => $datas['price'],
             'type' => $type,
             'nb_heures' => $datas['nb_heures'],
         );
@@ -70,9 +70,10 @@ if (isset($_GET['action']) && $_GET['action'] === 'refuse' && !empty($_GET['toke
     $message = "*-ANNULATION-*\n\nLa réservation de *" . $datas['name'] . " (" . $datas['phone'] . ")* a été annulée. \nUn mail d'annulation a été envoyé au client";
     try {
         $params = array(
+            'name' => $datas['name'],
             'date' => $datas['date'],
             'heure' => $datas['time'],
-            'tarif' => $datas['tarif'],
+            'tarif' => $datas['price'],
         );
         sendEmail($datas['email'], $datas['name'], 3, $params);
         sendTelegramMessage($message);
